@@ -15,19 +15,21 @@ var NewBadgeView = Backbone.View.extend({
 		$.ajax("tpl/newBadge.html")
 		.done(function (html) {
 			self.template = _.template(html);
-			self.render(JSON.parse(options.badges));	
+			self.render(options.badges);	
 		});
 	},
 
 	render: function (newBadges) {
+		var badges = JSON.parse(newBadges);
+
 		//Select the earned badges
-		var badges = [];
+		var earnedBadges = [];
 		for (var i = 0; i < _badges.length; i++) {
-			if(_.contains(newBadges, _badges[i].id))
-				badges.push(_badges[i]);
+			if(_.contains(badges, _badges[i].id))
+				earnedBadges.push(_badges[i]);
 		}
 
-		this.$el.html(this.template({badges: badges}));
+		this.$el.html(this.template({badges: earnedBadges}));
 	},
 
 	events:{
