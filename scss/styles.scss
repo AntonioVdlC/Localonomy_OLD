@@ -1,0 +1,761 @@
+/*
+ *	Stylesheet for Localonomy
+ */
+
+@import 'mixins';
+@import 'modalPopup';
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+
+/* ------------- */
+/* -- GLOBALS -- */
+/* ------------- */
+
+$header-height: 48px;
+
+button{
+	padding: 0px;
+	font-size: 18px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	box-shadow: inset 0 1px #fff;
+	border: 1px solid #a5a8a8;
+	border-radius: 6px;
+}
+
+/* ------------ */
+/* -- HEADER -- */
+/* ------------ */
+
+#header{
+
+    background-color: chocolate;
+    height: $header-height;
+    width: 100%;
+    z-index: 10;
+
+	/* Navigation Bar */
+	.nav-bar{
+		width: 70%;
+		padding-left: 2.5%;
+		padding-top: 12px;//calc(#{$header-height}/4);
+	    
+	    /* Icon */
+		.nav-bar-icon {
+		    height: 24px;//calc(#{$header-height}/2);
+		    float: left;
+		    margin-right: 5px;
+		    margin-left: 5px;
+		}
+
+		/* Title */
+		.nav-bar-title {
+		    margin: 0%;
+		    color: black;
+		    font-size: 24px;//calc(#{$header-height}/2);
+		    font-weight: lighter;
+		    padding-left: 5px;
+		}
+
+		/* Back button */
+		.back-button{
+		    float: left;
+		    height: 12px;//calc(#{$header-height}/4);
+		    width: 12px;//calc(#{$header-height}/4);
+		    padding-top: 6px;//calc(#{$header-height}/8);
+		    visibility: hidden;
+		}
+	}
+
+	.user-button{
+		position: absolute;
+		top: 12px;//calc(#{$header-height}/4);
+		right: 5%;
+
+		img{
+			height: 24px;//calc(#{$header-height}/2);
+		}
+	}
+}
+
+
+/* ------------- */
+/* -- CONTENT -- */
+/* ------------- */
+
+#content{
+
+	width: 90%;
+	height: 100%;
+	margin-left: 5%;
+
+	/* --------------- */
+	/* -- HOME PAGE -- */
+	/* --------------- */
+
+	/* Slogan */
+	#slogan{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	/* Search Bar */
+	#search-field{
+		width: 100%;
+		margin-top: 35px;
+
+		input{
+			line-height: 25px;
+			font-size: 15px;
+			padding-left: 5px;
+			width: 100%;//calc(100% - 5px);
+			border-radius: 50px;
+		}
+
+		img{
+			height: 20px;
+			position: absolute;
+			top: 168px;//calc(#{$header-height} + 120px);
+			right: 5%;
+		}
+
+		p{
+			color:red;
+			margin: 0px;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+
+	/* Filter Box */
+	#filter-box{
+		margin-top: 35px;
+		width: 100%;
+
+		/*table, tbody{
+			min-width: 290px;
+		}
+		
+		tr{
+			display: block;
+			margin-bottom: 5%;
+			min-width: 100%;
+		}
+
+		td{
+			width: 33%;
+			text-align: center;
+		}
+
+		.filter-img{
+			width: 75%;
+			text-align: center;
+		}*/
+
+		.filter-row{
+			text-align: center;
+		}
+
+		.filter-img {
+			width: 25%;
+			display: inline-block;
+			margin-left: 15px;
+		}
+		.selected{
+			opacity: 1;
+		}
+		.unselected{
+			opacity: 0.25;
+		}
+	}
+
+	/* --------------- */
+	/* -- DISH LIST -- */
+	/* --------------- */
+
+	/* Header */
+	#country{
+		padding-bottom: 15px;
+		border-bottom: 1px solid grey;
+
+		#text{
+			font-size: 12px;
+		}
+
+		#country-name{
+			font-size: 27px;
+		}
+
+		.flag{
+			float: right;
+			height: 25px;
+			border: 1px solid black;
+		}
+	}
+
+	/* Filters */
+	#filters{
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
+
+		text-align: center;
+
+		.filter-img{
+			width: 9%;
+		}
+		.selected{
+			opacity: 1;
+		}
+		.unselected{
+			opacity: 0.25;
+		}
+	}
+
+	/* Dish List */
+	#dish-list{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 136px;//calc(88px + #{$header-height});
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+
+		ul{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		li{
+			list-style: none;
+			margin-bottom: 15px;
+			padding-bottom: 15px;
+
+			border-bottom: 1px solid grey;
+		}
+
+		.check-img{
+			width: 20px;
+			visibility: hidden;
+		}
+
+		.dish-name{
+			font-size: 30px;
+			padding-left: 5px;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+
+		.tags{
+			padding-left: 30px;
+
+			.tag-img{
+				height: 25px;
+			}
+		}
+	}
+
+	/* ----------------- */
+	/* -- DISH DETAIL -- */
+	/* ----------------- */
+
+	/* Dish Metadata */
+	#dish-header{
+
+		#country-flag{
+			height: 20px;
+			border: 1px solid black;
+			float: right;
+		}
+
+		.dish-name{
+			font-size: 27px;
+			//padding-left: 5px;
+		}
+
+		.tags{
+			//padding-left: 40px;
+
+			.tag-img{
+				height: 25px;
+			}
+		}
+	}
+
+	/* Dish description */
+	#description{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 136px;//calc(88px + #{$header-height});
+		bottom: 55px;
+		left: 5%;
+		right: 5%;
+
+		#description-text{
+			margin-top: 0px;
+			text-align: justify;
+		}
+
+		#picture{
+			width: 100%;
+		}
+	}
+
+	/* Check-in */
+	#check-in{
+		position: absolute;
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+
+		#star-rating{
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 5px;
+			
+			img{
+				height: 27px;
+			}
+		}
+
+		.check-in-button{
+			width: 100%;
+			background-color: peachpuff;
+		}
+	}
+
+	/* ------------------- */
+	/* -- CHECK-IN DISH -- */
+	/* ------------------- */
+
+	/* Header */
+	/* See Dish Metadata in DISH DETAIL */
+
+	/* Content */
+	#rating{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 136px;//calc(88px + #{$header-height});
+		bottom: 55px;
+		left: 5%;
+		right: 5%;
+
+		img#picture{
+			width: 50%;
+			float: left;
+			margin-right: 15px;
+		}
+
+		#description-text{
+			text-align: justify;
+			margin-top: 0px;
+			min-height: 50%;
+		}
+
+		#taste-text{
+			border-top: 1px solid grey;
+			padding-top: 15px;
+			font-size: 20px;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		#input-rating {
+			margin: 0px;
+			width: 100%;
+			height: 20px;
+			
+			-webkit-appearance: none;
+			background: peachpuff;
+			border-radius: 8px;
+			
+			&::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				border: none;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				background: chocolate;
+			}
+		}
+
+		#rating-text{
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 25px;
+			font-size: 18px;
+		}
+	}
+
+	/* Buttons */
+	#buttons{
+		position: absolute;
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+		text-align: center;
+		
+		.back-button{
+			width: 25%;
+			background-color: white;
+			color: red;
+			font-size: 14px;
+		}
+
+		.confirm-button{
+			width: 70%;
+			background-color: peachpuff;
+		}
+	}
+
+
+	/* --------------- */
+	/* -- NEW BADGE -- */
+	/* --------------- */
+
+	/* Header */
+	#congrats{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	#congrats-text{
+		font-size: 16px;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	/* Badge Info */
+	.badge-info{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 136px;//calc(88px + #{$header-height});
+		bottom: 55px;
+		left: 5%;
+		right: 5%;
+
+		display:none;
+
+		&:nth-of-type(1){
+			display: block;
+		}
+
+		.badge-img{
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		.badge-name{
+			text-align: center;
+			font-size: 27px;
+			margin-top: 15px;
+			margin-bottom: 0px;
+		}
+
+		.badge-description{
+			text-align: center;
+			font-size: 14px;
+			margin-top: 5px;
+		}
+	}
+
+	/* Buttons */
+	#badge-buttons{
+		position: absolute;
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+		text-align: center;
+		
+		.continue-button{
+			width: 100%;
+			background-color: peachpuff;
+		}
+	}
+
+
+	/* --------------- */
+	/* -- USER PAGE -- */
+	/* --------------- */
+
+	/* Header */
+	#user-header{
+
+		border-bottom: 1px solid grey;
+
+		#user-header-title{
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+	}
+
+	/* Content */
+	#user-content{
+
+		margin-top: 15px;
+		
+		#user-tasted-dishes, #user-earned-badges{
+			
+			padding-bottom: 15px;
+			border-bottom: 1px solid grey;
+
+			p{
+				font-size: 18px;
+			}
+
+			button{
+				width: 100%;
+				background-color: peachpuff;
+			}
+		}
+
+		#user-connect{
+
+			margin-top: 15px;
+
+			#fb-button{
+				width: 100%;
+				height: 60px;
+				background-color: #3B5999;
+				color: white;
+			}
+
+			/* TODO */
+			#fb-connect-text{
+				display: none;
+
+				#cancel-fb{
+
+				}
+			}
+		}
+	}
+
+	/* ------------------- */
+	/* -- TASTED DISHES -- */
+	/* ------------------- */
+
+	/* Header */
+	#tasted-dishes-header{
+
+		#tasted-dishes-header-title{
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+
+			border-bottom: 1px solid grey;
+		}
+
+		#tasted-dishes-search-field{
+			width: 100%;
+			margin-top: 15px;
+
+			input{
+				line-height: 25px;
+				font-size: 15px;
+				padding-left: 5px;
+				width: 100%;//calc(100% - 5px);
+				border-radius: 50px;
+			}
+
+			img{
+				height: 20px;
+				position: absolute;
+				top: 118px;//calc(#{$header-height} + 70px);
+				right: 5%;
+			}
+		}
+	}
+
+	/* Dish List */
+	#tasted-dishes-list{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 156px;//calc(108px + #{$header-height});
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+
+		#list-container{
+
+			list-style: none;
+			padding-left: 0px;
+			margin-top: 0px;
+		
+			.country-item{
+
+				p{
+					border-bottom: 1px solid grey;
+					padding-bottom: 5px;
+				}
+		
+				.flag{
+					height: 20px;
+					border: 1px solid black;
+				}
+		
+				#country-name{
+					font-size: 25px;
+					margin-left: 5px;
+				}
+		
+				.dishes-list{
+
+					list-style: none;
+					padding-left: 0px;
+
+					.dish-item{
+						display: inline-block;
+						width: 100%;
+						margin-bottom: 15px;
+
+						.dish-name{
+							font-size: 20px;
+						}
+
+						.star-rating{
+							float: right;
+
+							img{
+								height: 18px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	/* --------------- */
+	/* -- MY BADGES -- */
+	/* --------------- */
+
+	/* Header */
+	#my-badges-header{
+
+		#my-badges-header-title{
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+
+			border-bottom: 1px solid grey;
+		}
+	}
+
+	/* My Badges */
+	#my-badges-list{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 116px;//calc(68px + #{$header-height});
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+
+		.badge-el{
+			width: 40%;
+			float: left;
+
+			background-color: blanchedalmond;
+			padding: 2.5%;
+			border-radius: 15px;
+			margin-bottom: 15px;
+
+			&:nth-of-type(odd){
+				margin-right: 10%;
+			}
+
+			.badge-picture{
+				width: 100%;
+			}
+			.badge-name{
+				text-align: center;
+				margin-top: 5px;
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+
+	/* ------------------ */
+	/* -- BADGE DETAIL -- */
+	/* ------------------ */
+
+	/* Header */
+	#badge-detail-header{
+
+		#badge-name{
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+
+			border-bottom: 1px solid grey;
+		}
+	}
+
+	/* Content */
+	#badge-info{
+		overflow: auto;
+	    -webkit-overflow-scrolling: touch;
+	    position: absolute;
+	    top: 116px;//calc(68px + #{$header-height});
+		bottom: 5px;
+		left: 5%;
+		right: 5%;
+		
+		#badge-img{
+			width: 90%;
+			margin-left: 5%;
+		}
+
+		#badge-description{
+			text-align: center;
+		}
+	}
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* -- LANDSCAPE -- */
+/* --------------- */
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+
+}

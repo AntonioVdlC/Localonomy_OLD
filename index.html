@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+        <!-- LANGUAGE DETECTION
+        <script type="text/javascript">
+            console.log('Loading strings for lang: ' + navigator.language);
+
+            if(navigator.language == 'fr')
+                document.write('<script type="text/javascript" src="lang/fr.js"><\/script>');
+            else if(navigator.language == 'es')
+                document.write('<script type="text/javascript" src="lang/es.js"><\/script>');
+            else
+                document.write('<script type="text/javascript" src="lang/en.js"><\/script>');
+        </script> -->
+        
+        <!-- CORDOVA
+        <script type="text/javascript" src="cordova.js"></script> -->
+
+        <!-- JS LIBS -->
+        <script type="text/javascript" src="js/lib/jquery.js"></script>
+        <script type="text/javascript" src="js/lib/underscore.js"></script>
+        <script type="text/javascript" src="js/lib/backbone.js"></script>
+
+        <!-- UTILS -->
+        <script type="text/javascript" src="js/app/utils/modalPopup.js"></script>
+
+        <!-- VIEWS -->
+        <script type="text/javascript" src="js/app/views/badgeDetail.view.js"></script>
+        <script type="text/javascript" src="js/app/views/checkIn.view.js"></script>
+        <script type="text/javascript" src="js/app/views/dishDetail.view.js"></script>
+        <script type="text/javascript" src="js/app/views/dishList.view.js"></script>
+        <script type="text/javascript" src="js/app/views/home.view.js"></script>
+        <script type="text/javascript" src="js/app/views/myBadges.view.js"></script>
+        <script type="text/javascript" src="js/app/views/newBadge.view.js"></script>
+        <script type="text/javascript" src="js/app/views/tastedDishes.view.js"></script>
+        <script type="text/javascript" src="js/app/views/user.view.js"></script>
+
+        <!-- APP -->
+        <script type="text/javascript" src="js/app/router.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        
+
+        <title>Localonomy</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="nav-bar">
+                <img class="back-button" src="img/icon/back.png" alt="Back button" />
+                <img class="nav-bar-icon" src="img/icon/icon-dark.png" alt="Icon" />
+                <p class="nav-bar-title">Localonomy</p>
+            </div>
+            <div class="user-button">
+                <a href="#user/"><img class="user-icon" src="img/icon/user.png" alt="User Page" /></a>
+            </div> 
+        </div>
+        <div id="content">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!-- Header -->
+<div id="tasted-dishes-header">
+	<p id="tasted-dishes-header-title">My Tasted Dishes</p>
+	<div id="tasted-dishes-search-field">
+		<input id="search-input" type="text" name="tasted-dishes-search">
+		<img id="tasted-dishes-search-button" src="img/icon/search.png" alt="Search Button" />
+	</div>
+</div>
+
+<!-- Content -->
+<div id="tasted-dishes-list">
+	<ul id="list-container">
+	<%_.each(data, function(country){%>
+		<li class="country-item">
+			<p><img class="flag" src="img/flag/<%= country.flag %>" alt="Flag" />
+			<span id="country-name"><%= country.name %></span></p>
+			<ul class="dishes-list">
+			<% _.each(country.dishes, function(dish) { %>
+				<li class="dish-item" id="<%= dish.id %>">
+					<span class="dish-name"><%= dish.name %></span>
+					<span class="star-rating">
+						<% for (var i=0; i<5; i++){
+							if(i<dish.rating){%>
+								<img src="img/star/full.png" alt="Star" />
+							<%}else{%>
+								<img src="img/star/null.png" alt="Star" />
+							<%}
+						}%>
+					</span>
+				</li>
+			<% }); %>
+			</ul>
+		</li>
+	<%});%>
+	</ul>
+</div>

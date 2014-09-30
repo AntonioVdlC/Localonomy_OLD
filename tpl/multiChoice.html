@@ -1,0 +1,10 @@
+<p id="choice-text">Your input leads to multiple choices. Please choose one or dismiss.</p>
+<ul id="multi-choice">
+	<%_.each(routes, function(route){%>
+		<a href="#<%= route.route %>/<%= route.text %>">
+			<li class="choice-item">
+				<%= route.text %>
+			</li>
+		</a>
+	<%});%>
+</ul>

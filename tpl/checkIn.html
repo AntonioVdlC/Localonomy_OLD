@@ -1,0 +1,27 @@
+<!-- Header -->
+<p id="dish-header">
+	<img id="country-flag" src="img/flag/<%= data.flag %>" alt="Flag" />
+	<span class="dish-name" id="<%= data.id %>"><%= data.name %></span><br/ >
+	<span class="tags">
+	<% _.each(data.ingredients, function(ingredient) { %>
+		<img class="tag-img" src="img/ingredient/<%= ingredient %>.png" alt="<%= ingredient %>" />
+	<% }); %>
+	</span>
+</p>
+
+<!-- Content -->
+<div id="rating">
+	<img id="picture" src="img/dish/<%= data.picture %>" alt="<%= data.name %>" />
+	<p id="description-text"><%= data.description %></p>
+
+	<p id="taste-text">I tasted it, and it was: </p>
+
+	<input id="input-rating" name="rating" type="range" min="1" max="5" value="3" step="1" />
+	<span id="rating-text">Pretty good!</span>
+</div>
+
+<!-- Buttons -->
+<div id="buttons">
+	<button class="back-button">Back</button>
+	<button class="confirm-button">Confirm</button>
+</div>

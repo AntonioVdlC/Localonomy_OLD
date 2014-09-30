@@ -1,0 +1,17 @@
+<!-- Header -->
+<p id="congrats">CONGRATULATIONS!</p>
+<p id="congrats-text">You have won a new badge!</p>
+
+<!-- Badge Info -->
+<%_.each(badges, function(badge){%>
+<div class="badge-info" id="<%= badge.id %>">
+	<img class="badge-img" src="img/badge/<%= badge.picture %>" alt="<%= badge.name %>">
+	<p class="badge-name"><%= badge.name %></p>
+	<p class="badge-description"><%= badge.description %></p>
+</div>
+<%});%>
+
+<!-- Buttons -->
+<div id="badge-buttons">
+	<button class="continue-button">Continue</button>
+</div>

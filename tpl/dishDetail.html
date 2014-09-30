@@ -1,0 +1,33 @@
+<!-- Header -->
+<p id="dish-header">
+	<img id="country-flag" src="img/flag/<%= data.flag %>" alt="Flag" />
+	<span class="dish-name" id="<%= data.id %>"><%= data.name %></span><br/ >
+	<span class="tags">
+	<% _.each(data.ingredients, function(ingredient) { %>
+		<img class="tag-img" src="img/ingredient/<%= ingredient %>.png" alt="<%= ingredient %>" />
+	<% }); %>
+	</span>
+</p>
+
+<!-- Description -->
+<div id="description">
+	<p id="description-text"><%= data.description %></p>
+	<img id="picture" src="img/dish/<%= data.picture %>" alt="<%= data.name %>" />
+</div>
+
+<!-- Footer -->
+<div id="check-in">
+	<% if(data.rating){%>
+		<span id="star-rating">
+			<% for (var i=0; i<5; i++){
+				if(i<data.rating){%>
+					<img src="img/star/full.png" alt="Star" />
+				<%}else{%>
+					<img src="img/star/null.png" alt="Star" />
+				<%}
+			}%>
+		</span>
+	<%}else{%>
+		<button class="check-in-button">Check-in!</button>
+	<%}%>
+</div>

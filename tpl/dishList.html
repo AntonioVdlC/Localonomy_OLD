@@ -1,0 +1,23 @@
+<!-- Header -->
+<p id="country">
+	<span id="text">Local Dishes from</span><br/>
+	<span id="country-name"><%= data.country %></span>
+	<img class="flag" src="img/flag/<%= data.flag %>" alt="Flag" />
+</p>
+
+<!-- Dish List -->
+<div id="dish-list">
+	<ul>
+	<% _.each(data.dishes, function(dish) { %>
+		<li class="list-item" id="<%= dish.id %>">
+			<img class="check-img" id="check-<%= dish.id %>" src="img/icon/check.png" alt="Check" />
+			<span class="dish-name"><%= dish.name %></span><br />
+			<span class="tags">
+			<% _.each(dish.ingredients, function(ingredient) { %>
+				<img class="tag-img" src="img/ingredient/<%= ingredient %>.png" alt="<%= ingredient %>" />
+			<% }); %>
+			</span>
+		</li>
+	<% }); %>
+	</ul>
+</div>

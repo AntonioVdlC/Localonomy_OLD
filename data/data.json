@@ -1,0 +1,5223 @@
+{
+	"dishes":[
+		{
+			"country": "Belgium",
+			"flag": "bel.svg",
+			"dishes":[
+				{
+					"id": "be13",
+					"name": "Boudin blanc",
+					"picture": "boudin-blanc.jpg",
+					"description": "A white sausage made of pork without the blood. Pork liver and heart meat are typically included. The French/Belgian version typically uses milk, and is therefore generally more delicate than the Cajun variety.",
+					"ingredients":[
+						"pork",
+						"milk"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"milk"
+					]
+				},{
+					"id": "be01",
+					"name": "Carbonnade",
+					"picture": "carbonnade.jpg",
+					"description": "Traditional Belgian sweet-sour beef and onion stew made with beer, and seasoned with thyme, bay and mustard.",
+					"ingredients":[
+						"meat",
+						"beer",
+						"onion"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "be02",
+					"name": "Chicons au gratin",
+					"picture": "chicons-gratin.jpg",
+					"description": "This dish epitomises rural Belgian cooking: a gratin of Belgian endives in béchamel sauce with cheese. Often the endives are wrapped with ham.",
+					"ingredients":[
+						"vegetables",
+						"meat",
+						"cheese"
+					],
+					"contains":[
+						"dairy",
+						"meat",
+						"pork"
+					]
+				},{
+					"id": "be20",
+					"name": "Chocolat",
+					"picture": "chocolat.jpg",
+					"description": "Refers to chocolate produced in Belgium. While cacao beans and other ingredients such as sugar can originate from outside of Belgium, the actual production of the chocolate must take place in the country. Belgian chocolate is internationally known, and dates from as early as the 17th century. It also forms an important part of the Belgian economy.",
+					"ingredients":[
+						"cocoa",
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "be03",
+					"name": "Filet américain",
+					"picture": "filet-americain.jpg",
+					"description": "Very finely minced ground beef eaten raw and cold. It is spread on a sandwich or bread with and sometimes topped with a sauce, usually with sauce américaine, and served with fries.",
+					"ingredients":[
+						"meat",
+						"onion",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "be19",
+					"name": "Frites",
+					"picture": "frites.jpg",
+					"description": "It is claimed that fries originated in Belgium, and the on-going dispute between the French and Belgians about where they were invented is highly contentious, with both countries claiming ownership. Some people believe that the term 'French' was introduced when British and American soldiers arrived in Belgium during World War I and consequently tasted Belgian fries. They supposedly called them 'French', as it was the local language and official language of the Belgian Army at that time, believing themselves to be in France.",
+					"ingredients":[
+						"potato"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "be14",
+					"name": "Jambon d'Ardenne",
+					"picture": "jambon-ardenne.jpg",
+					"description": "A Belgian gastronomic jewel, this ham is prepared, in the province of Luxembourg, from a pork leg.",
+					"ingredients":[
+						"ham"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "be17",
+					"name": "Lapin à la gueuze",
+					"picture": "lapin-gueuze.jpg",
+					"description": "Rabbit in gueuze, which is a spontaneously fermented beer from the area around Brussels.",
+					"ingredients":[
+						"rabbit",
+						"beer"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "be04",
+					"name": "Mitraillette",
+					"picture": "mitraillette.jpg",
+					"description": "Belgian dish made of a demi-baguette, fried meat, fries, sauce and sometimes crudités.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"fries"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "be05",
+					"name": "Moules-frites",
+					"picture": "moules-frites.jpg",
+					"description": "National Belgian dish consisting of mussels and fries.",
+					"ingredients":[
+						"mussel",
+						"fries"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "be06",
+					"name": "Paling in 't groen",
+					"picture": "paling.jpg",
+					"description": "Flemish regional dish, the name (literally 'Eel in the Green') refers to freshwater eel in a green herb sauce.",
+					"ingredients":[
+						"eel",
+						"herbs"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "be18",
+					"name": "Pêches au thon",
+					"picture": "peches-thon.jpg",
+					"description": "Halved canned or fresh peaches stuffed with a mix of tuna and mayonnaise, i.e. tuna salad.",
+					"ingredients":[
+						"peach",
+						"fish",
+						"mayonnaise"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "be07",
+					"name": "Salade liégoise",
+					"picture": "salade-liegeoise.jpg",
+					"description": "A salad with green beans, bacon, onions and vinegar. It is usually associated with Liège.",
+					"ingredients":[
+						"vegetables",
+						"bacon",
+						"potato",
+						"onion"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "be15",
+					"name": "Speculoos",
+					"picture": "speculoos.jpg",
+					"description": "A type of spiced shortcrust biscuit, traditionally baked for consumption on or just before St Nicholas' feast in the Netherlands (December 5), Belgium (December 6), and around Christmas in Germany. In recent decades it has become available all year round. ",
+					"ingredients":[
+						"flour",
+						"sugar",
+						"cinnamon",
+						"ginger"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "be08",
+					"name": "Stoemp",
+					"picture": "stoemp.jpg",
+					"description": "Brussels variant of the stamppot dish in the cuisine of Belgium and the Netherlands. It consists of pureed or mashed potatoes, other root vegetables and can also include cream, bacon, onion or shallot, herbs, and spices.",
+					"ingredients":[
+						"potato",
+						"bacon",
+						"cream",
+						"onion",
+						"vegetables",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "be09",
+					"name": "Tarte au riz",
+					"picture": "tarte-riz.jpg",
+					"description": "In Dutch and Belgian cuisine, rijstevlaai (Dutch) or tarte au riz (French) is a pie with a filling based on rice pudding. It is native to Verviers in southeastern Belgium.",
+					"ingredients":[
+						"egg",
+						"flour",
+						"milk",
+						"sugar",
+						"rice",
+						"cinnamon"
+					],
+					"contains":[
+						"dairy",
+						"egg",
+						"gluten"
+					]
+				},{
+					"id": "be10",
+					"name": "Tomate-crevette",
+					"picture": "tomate-crevette.jpg",
+					"description": "A snack or starter of grey shrimp (which is particularly popular in Belgium) and mayonnaise stuffed into a hollowed-out raw tomato.",
+					"ingredients":[
+						"tomato",
+						"shrimp",
+						"mayonnaise"
+					],
+					"contains":[
+						"seafood",
+						"egg"
+					]
+				},{
+					"id": "be16",
+					"name": "Trappist Beer",
+					"picture": "trappist-beer.jpg",
+					"description": "Trappist beer is brewed by Trappist breweries. Ten monasteries — six in Belgium, two in the Netherlands, one in Austria and one in the United States — currently brew beer and sell it as Authentic Trappist Product.",
+					"ingredients":[
+						"beer"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "be11",
+					"name": "Waffle",
+					"picture": "waffle.jpg",
+					"description": "A waffle is a leavened batter or dough cooked between two plates, patterned to give a characteristic size, shape and surface impression. There are many variations based on the type of waffle iron and recipe used, with over a dozen regional varieties in Belgium alone.",
+					"ingredients":[
+						"egg",
+						"flour",
+						"milk",
+						"sugar"
+					],
+					"contains":[
+						"dairy",
+						"egg",
+						"gluten"
+					]
+				},{
+					"id": "be12",
+					"name": "Waterzooi",
+					"picture": "waterzooi.jpg",
+					"description": "Belgian dish of stew, originating in Flanders often made of fish, either freshwater or sea, (known as Viszooitje), though today chicken waterzooi (Kippenwaterzooi) is more common.",
+					"ingredients":[
+						"fish",
+						"egg",
+						"cream",
+						"vegetables"
+					],
+					"contains":[
+						"dairy",
+						"egg",
+						"seafood"
+					]
+				}
+			]
+		},{
+			"country": "Chile",
+			"flag": "chl.svg",
+			"dishes":[
+				{
+					"id": "cl01",
+					"name": "Barros Luco",
+					"picture": "barros-luco.jpg",
+					"description": "A popular sandwich in Chile that includes beef and melted cheese in one of several types of bread. The name was coined in the restaurant of the National Congress of Chile, where president Ramón Barros Luco always asked for this sandwich.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "cl02",
+					"name": "Caldillo de congrio",
+					"picture": "caldillo-congrio.jpg",
+					"description": "A Chilean fish dish. The dish is made of congrio Colorado (red conger), an eel species common in the Chilean Sea. The dish is made by boiling together fish heads, onion, garlic, coriander, carrots and pepper.",
+					"ingredients":[
+						"fish",
+						"onion",
+						"garlic",
+						"tomato",
+						"potato",
+						"herbs"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "cl03",
+					"name": "Charquicán",
+					"picture": "charquican.jpg",
+					"description": "A Chilean stew dish. It is also popular in Argentina, Peru, Bolivia and other countries in the Andean region. Charquicán is made with ch'arki or beef, potatoes, pumpkin, white corn, onion and sometimes peas and corn.",
+					"ingredients":[
+						"meat",
+						"potato",
+						"pumpkin",
+						"corn",
+						"egg"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "cl04",
+					"name": "Choripán",
+					"picture": "choripan.jpg",
+					"description": "A type of sandwich with chorizo popular in Argentina, Bolivia, Brazil, Chile, Peru, Puerto Rico, Uruguay and Venezuela. The name comes from the combination of the names of its ingredients: a grilled chorizo (sausage) and a pan (crusty bread) such as a marraqueta or baguette",
+					"ingredients":[
+						"bread",
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "cl05",
+					"name": "Chorrillana",
+					"picture": "chorrillana.jpg",
+					"description": "A typical Chilean dish consisting of a plate of french fries topped with beef sliced into strips, eggs, fried onions and occasionally sausages. Chorrillana is considered one of the most traditional dishes in the Chilean city of Valparaíso. Because of its large size, it is usually served as a dish to share.",
+					"ingredients":[
+						"meat",
+						"potato",
+						"onion",
+						"egg",
+						"pork"
+					],
+					"contains":[
+						"meat",
+						"pork",
+						"egg"
+					]
+				},{
+					"id": "cl06",
+					"name": "Churrasco Italiano",
+					"picture": "churrasco-italiano.jpg",
+					"description": "In Chile, churrasco refers to a thin cut of steak which varies depending on the desired quality of the sandwich. The slices are grilled and served in a -sometimes warmed- local bun (called 'marraqueta'), usually accompanied with tomato, avocado and mayonnaise, in the case of a churrasco italiano. Another popular dish, churrasco a lo pobre ('poor man's churrasco'), consists of a churrasco served with French fries, fried egg, and caramelized onions",
+					"ingredients":[
+						"bread",
+						"meat",
+						"tomato",
+						"mayonnaise",
+						"avocado"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "cl07",
+					"name": "Completo",
+					"picture": "completo.jpg",
+					"description": "A hot dog variation eaten in Chile, which is usually served with ingredients such as chopped tomatoes, avocados, mayonnaise, sauerkraut, a variation of the sauce américaine, Chilean chili, green sauce and cheese. Its size can be twice of an American hot dog.",
+					"ingredients":[
+						"bread",
+						"pork",
+						"tomato",
+						"mayonnaise",
+						"avocado"
+					],
+					"contains":[
+						"gluten",
+						"pork",
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "cl08",
+					"name": "Cordero al palo",
+					"picture": "cordero-palo.jpg",
+					"description": "In Chile, the cordero al palo (whole roast lamb) is usually accompanied with pebre, a local condiment made from pureed herbs, garlic, and hot peppers; in many ways similar to chimichurri. The dish is typical of southern Chile and is served hot accompanied by salads.",
+					"ingredients":[
+						"lamb",
+						"garlic",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cl09",
+					"name": "Ensalada de quinoa",
+					"picture": "ensalada-quinoa.jpg",
+					"description": "Quinoa salad comprising quinoa and other vegetables.",
+					"ingredients":[
+						"quinoa",
+						"vegetables",
+						"olive-oil"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "cl10",
+					"name": "Humita",
+					"picture": "humita.jpg",
+					"description": "A Native American dish from pre-Hispanic times, and a traditional food in Argentina, Bolivia, Chile, Ecuador and Peru. It consists of masa harina and corn, slowly steamed or boiled in a pot of water. In Brazil it is known as pamonha. Humitas in Chile are prepared with fresh corn, onion, basil, and butter or lard.",
+					"ingredients":[
+						"corn",
+						"onion",
+						"bacon",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cl11",
+					"name": "Lomo a lo pobre",
+					"picture": "lomo-pobre.jpg",
+					"description": "Lomo a lo Pobre consists of a loin cut of meat topped with one or more fried eggs and generally served with French fries and fried onions. There are several possible origins for the name, one is that it was named so because of the irony of nineteenth century Peruvian commonsfolk eating similar dishes with an abundance of food and at a heavy price, despite their economic situation.",
+					"ingredients":[
+						"meat",
+						"potato",
+						"onion",
+						"egg"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "cl12",
+					"name": "Machas parmesana",
+					"picture": "machas-parmesana.jpg",
+					"description": "A dish made with the macha. This is a saltwater clam, a bivalve that is native to Chile. The dish also includes Parmesan cheese.",
+					"ingredients":[
+						"clam",
+						"cheese"
+					],
+					"contains":[
+						"seafood",
+						"dairy"
+					]
+				},{
+					"id": "cl13",
+					"name": "Mote con huesillo",
+					"picture": "mote-huesillo.jpg",
+					"description": "A traditional Chilean summer-time non-alcoholic drink made from wheat and peaches and often sold in street stands or vendor carts. It is a non-alcoholic beverage consisting of a sweet clear nectar like liquid made with dried peaches (huesillo) cooked in sugar, water and cinnamon, and then once cooled mixed with fresh cooked husked wheat (mote).",
+					"ingredients":[
+						"wheat",
+						"peach",
+						"sugar"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "cl14",
+					"name": "Paila marina",
+					"picture": "paila-marina.jpg",
+					"description": "A traditional Chilean seafood soup or light stew usually served in a paila (earthenware bowl). It usually contains a shellfish stock base cooked with different kinds of shellfish and fish.",
+					"ingredients":[
+						"mussel",
+						"clam",
+						"fish",
+						"herbs"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "cl15",
+					"name": "Pan de Pascua",
+					"picture": "pan-pascua.jpg",
+					"description": "A typical Chilean cake that is traditionally eaten around Christmas time. Despite its name, it is a cake made from batter, and not a true bread. It is similar to a sweet sponge cake flavored with ginger and honey. It usually contains candied fruits, raisins, walnuts and almonds.",
+					"ingredients":[
+						"ginger",
+						"honey",
+						"raisin",
+						"almond",
+						"sugar"
+					],
+					"contains":[
+						"nuts"
+					]
+				},{
+					"id": "cl16",
+					"name": "Pantruca",
+					"picture": "pantruca.jpg",
+					"description": "A typical food of Chile made with flour. It is a type of dumpling whose dough is made with water, flour and a bit of oil, cut in irregular pieces and later mixed with verduras soup or beef stock.",
+					"ingredients":[
+						"flour",
+						"olive-oil"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "cl17",
+					"name": "Pastel de choclo",
+					"picture": "pastel-choclo.jpg",
+					"description": "A pastel food based on sweetcorn or choclo, the quechua word for 'tender corn', or the new corn of the season. It is a typical Argentine, Bolivian, Chilean and Peruvian dish. Pastel de choclo is traditionally served in a paila (earthenware bowl) in individual portions. The filling usually contains ground beef, chicken, raisins, black olives, onions or slices of hard boiled egg.",
+					"ingredients":[
+						"corn",
+						"meat",
+						"chicken",
+						"raisin",
+						"onion",
+						"egg"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "cl18",
+					"name": "Pisco",
+					"picture": "pisco.jpg",
+					"description": "A colorless or yellowish-to-amber colored brandy (a spirit produced by distilling wine) produced in winemaking regions of Chile and Peru. Typical cocktails made with pisco are Pisco sour and Piscola.",
+					"ingredients":[
+						"raisin"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "cl19",
+					"name": "Porotos con rienda",
+					"picture": "porotos-rienda.jpg",
+					"description": "A typical Chilean dish made of boiled beans with spaghetti.",
+					"ingredients":[
+						"pasta",
+						"bean"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "cl20",
+					"name": "Terremoto",
+					"picture": "terremoto.jpg",
+					"description": "A Chilean alcoholic cocktail invented in the late 20th century as a cheap version of ponche a la romana. The name is due to the fact that the cocktail was invented right after the 1985 earthquake (terremoto in Spanish). The cocktail was created at La Piojera and remained secret for a while. You can now enjoy terremotos in most of the bars in Chile.",
+					"ingredients":[
+						"raisin",
+						"pineapple",
+						"grenadine",
+						"gin"
+					],
+					"contains":[
+						"alcohol"
+					]
+				}
+			]
+		},{
+			"country": "China",
+			"flag": "chn.svg",
+			"dishes":[
+				{
+					"id": "cn01",
+					"name": "Beef chow fun",
+					"picture": "beef-chow-fun.jpg",
+					"description": "干炒牛河. A staple Cantonese dish, made from stir-frying beef, hefen (wide rice noodles) and bean sprouts and is commonly found in yum cha restaurants in Guangdong, Hong Kong, and even overseas, as well as in cha chaan tengs.",
+					"ingredients":[
+						"meat",
+						"soy-sprout",
+						"soy-sauce",
+						"noodle",
+						"onion"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cn02",
+					"name": "Beggar's Chicken",
+					"picture": "beggar-chicken.jpg",
+					"description": "叫化雞. A dish from Changshu, a city in China's Jiangsu province that is famous for its delicious taste. Beggar's Chicken is called 'jiaohuaji' in the Changshu dialect. The chicken is stuffed, wrapped in clay, and roasted following a traditional Eastern Chinese recipe.",
+					"ingredients":[
+						"chicken"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cn03",
+					"name": "Buddha's delight",
+					"picture": "buddha-delight.jpg",
+					"description": "罗汉菜. A vegetarian dish well known in Chinese and Buddhist cuisine. The dish is traditionally enjoyed by Buddhist monks who are vegetarians, but it has also grown in popularity throughout the world as a common dish available as a vegetarian option in Chinese restaurants.",
+					"ingredients":[
+						"vegetables",
+						"soy-sauce"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "cn04",
+					"name": "Century egg",
+					"picture": "century-egg.jpg",
+					"description": "皮蛋. A Chinese cuisine ingredient made by preserving duck, chicken or quail eggs in a mixture of clay, ash, salt, quicklime, and rice hulls for several weeks to several months, depending on the method of processing.",
+					"ingredients":[
+						"egg"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "cn05",
+					"name": "Char siu",
+					"picture": "char-siu.jpg",
+					"description": "叉燒. A popular way to flavor and prepare barbecued pork in Cantonese cuisine. It is classified as a type of siu mei (燒味), Cantonese roasted meat.",
+					"ingredients":[
+						"pork",
+						"honey",
+						"tofu",
+						"soy-sauce",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cn06",
+					"name": "Dandan noodles",
+					"picture": "dandan.jpg",
+					"description": "担担面. A noodle dish originating from Chinese Sichuan cuisine. It consists of a spicy sauce containing preserved vegetables (often including zha cai (榨菜), lower enlarged mustard stems, or ya cai (芽菜), upper mustard stems), chili oil, Sichuan pepper, minced pork, and scallions served over noodles.",
+					"ingredients":[
+						"noodle",
+						"pork",
+						"vegetables",
+						"spicy"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "cn07",
+					"name": "Dim sum",
+					"picture": "dim-sum.jpg",
+					"description": "点心. A style of Cantonese food prepared as small bite-sized or individual portions of food traditionally served in small steamer baskets or on small plates.",
+					"ingredients":[
+						"wheat",
+						"cassava",
+						"soy-sauce",
+						"pork",
+						"shrimp"
+					],
+					"contains":[
+						"gluten",
+						"pork",
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "cn08",
+					"name": "Dongpo pork",
+					"picture": "dongpo-pork.jpg",
+					"description": "东坡肉. A Hangzhou dish which is made by pan-frying and then red cooking pork belly. The pork is cut to around 2 inches square in dimensions, consisting of half fat and half lean meat. The mouth feel is oily but not greasy, with the fragrance of wine. The dish is named after the famed Song Dynasty poet Su Dongpo.",
+					"ingredients":[
+						"pork",
+						"soy-sauce",
+						"sugar"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cn09",
+					"name": "Duck's head",
+					"picture": "duck-head.jpg",
+					"description": "鸭头. A Chinese snack made by adding spices and herbs to a stir-fried head of duck. It is a popular dish in many parts of China, including Wuhan and Shanghai. One duck's head store claims that the snack 'helps your own brain power'. It has a crispy taste and is written to be a healthy food with no known health drawbacks.",
+					"ingredients":[
+						"duck",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cn10",
+					"name": "Fried rice",
+					"picture": "fried-rice.jpg",
+					"description": "炒饭. A dish of steamed rice stir-fried in a wok, often mixed with other ingredients, such as eggs, vegetables, and meat. It is sometimes served as the penultimate dish in Chinese banquets, just before dessert. As a homemade dish, fried rice is typically made with leftover ingredients (including vegetables, meat) from other dishes, leading to countless variations.",
+					"ingredients":[
+						"rice",
+						"vegetables",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cn11",
+					"name": "Ha gow",
+					"picture": "ha-gow.jpg",
+					"description": "虾饺. A traditional Chinese dumpling served in dim sum. The dumpling is sometimes called a shrimp bonnet for its pleated shape.",
+					"ingredients":[
+						"wheat",
+						"cassava",
+						"soy-sauce",
+						"shrimp"
+					],
+					"contains":[
+						"gluten",
+						"seafood"
+					]
+				},{
+					"id": "cn12",
+					"name": "Kung Pao chicken",
+					"picture": "kung-pao.jpg",
+					"description": "宫保雞丁. A spicy stir-fry dish made with chicken, peanuts, vegetables, and chili peppers. The classic dish in Szechuan cuisine originated in the Sichuan Province of south-western China and includes Sichuan peppercorns.",
+					"ingredients":[
+						"chicken",
+						"vegetables",
+						"peanut",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "cn13",
+					"name": "Mantou",
+					"picture": "mantou.jpg",
+					"description": "馒头. A type of steamed bread or bun originating in China. They are typically eaten as a staple in northern parts of China where wheat, rather than rice, is grown. They are made with milled wheat flour, water and leavening agents.",
+					"ingredients":[
+						"flour"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "cn14",
+					"name": "Mapo doufu",
+					"picture": "map-doufu.jpg",
+					"description": "麻婆豆腐. A popular Chinese dish from China's Sichuan province. It is a combination of tofu set in a spicy chili- and bean-based sauce, typically a thin, oily, and bright red suspension, and often cooked with douchi (fermented black beans) and minced meat, usually pork or beef. Variations exist with other ingredients such as water chestnuts, onions, other vegetables, or wood ear fungus.",
+					"ingredients":[
+						"tofu",
+						"spicy",
+						"bean",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cn15",
+					"name": "Mooncake",
+					"picture": "mooncake.jpg",
+					"description": "月饼. A Chinese bakery product traditionally eaten during the Mid-Autumn Festival (Zhongqiujie). The festival is for lunar worship and moon watching, when mooncakes are regarded as an indispensable delicacy. Mooncakes are offered between friends or on family gatherings while celebrating the festival. The Mid-Autumn Festival is one of the four most important Chinese festivals.",
+					"ingredients":[
+						"olive-oil",
+						"bean"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "cn16",
+					"name": "Peking duck",
+					"picture": "peking-duck.jpg",
+					"description": "北京烤鸭. A famous duck dish from Beijing that has been prepared since the imperial era. The meat is prized for its thin, crisp skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook.",
+					"ingredients":[
+						"duck"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "cn17",
+					"name": "Sweet and sour pork",
+					"picture": "sweet-sour-pork.jpg",
+					"description": "咕噜肉. Cantonese sweet and sour sauce is the direct ancestor of sauce of the same name in the West, and originally developed for sweet and sour pork.",
+					"ingredients":[
+						"pork",
+						"soy-sauce",
+						"sugar"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cn18",
+					"name": "Xiaolongbao",
+					"picture": "xiaolongbao.jpg",
+					"description": "小笼包. A type of steamed bun (baozi) from the Jiangnan region of China, especially associated with Shanghai and Wuxi. It is traditionally prepared in xiaolong, small bamboo steaming baskets, which give them their name. Xiaolongbao are often referred to as a kind of 'dumpling'",
+					"ingredients":[
+						"dough",
+						"pork"
+					],
+					"contains":[
+						"gluten",
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "cn19",
+					"name": "Yeung Chow",
+					"picture": "yeung-chow.jpg",
+					"description": "扬州炒饭. A popular Chinese-style wok fried rice dish in many Chinese restaurants in China, the Americas, Australia, United Kingdom, Vietnam, Indonesia and the Philippines. The ingredients vary, but there are staple items like rice (preferably day old because freshly cooked rice is too sticky), shrimp, scallions, fresh vegetables such as peas, corn, bamboo shoots, and eggs",
+					"ingredients":[
+						"rice",
+						"shrimp",
+						"onion",
+						"pea",
+						"corn",
+						"egg"
+					],
+					"contains":[
+						"seafood",
+						"egg"
+					]
+				},{
+					"id": "cn20",
+					"name": "Zhajiangmian",
+					"picture": "zhajiang.jpg",
+					"description": "炸酱面. A Chinese dish consisting of thick wheat noodles topped with a mixture of ground pork stir-fried with zhajiang (醡醬), which is salty fermented soybean paste.",
+					"ingredients":[
+						"noodle",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				}
+			]
+		},{
+			"country": "Dominican Republic",
+			"flag": "dom.svg",
+			"dishes":[
+				{
+					"id": "do01",
+					"name": "Arepa",
+					"picture": "arepa.jpg",
+					"description": "A flatbread made of ground maize dough or cooked flour prominent in the cuisine of Colombia and Venezuela. It is similar in shape to the Mexican gordita and the Salvadoran pupusa. Arepas can also be found in the Dominican Republic, where they are sweet.",
+					"ingredients":[
+						"corn",
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do02",
+					"name": "Arroz con maiz",
+					"picture": "arroz-maiz.jpg",
+					"description": "A staple in Dominican homes. Very simply done with annatto powered, chicken bouillon cube and Dominican sofrito called sazón.",
+					"ingredients":[
+						"rice",
+						"corn"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do03",
+					"name": "Casabe",
+					"picture": "casabe.jpg",
+					"description": "A thin flatbread made from bitter cassava root (yuca) without leavening. It was originally produced by the indigenous Arawak and Carib peoples because these roots were a common plant of the rain forests where they lived.",
+					"ingredients":[
+						"cassava"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do04",
+					"name": "Chapea",
+					"picture": "chapea.jpg",
+					"description": "A very popular dish from the countryside of the Dominican Republic. Cooked red beans or white beans with longaniza (Dominican sausage), rice, and green plantain are the basic ingredients, with cooked and mashed squash used as a thickener.",
+					"ingredients":[
+						"bean",
+						"pork",
+						"rice",
+						"banana"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "do05",
+					"name": "Chimichurri",
+					"picture": "chimichurri.jpg",
+					"description": "A traditional snack dish (sandwich) served in the Dominican Republic. It is made from a ground pork or beef, which is sliced, grilled and served on a pan de agua (literally 'water bread') and garnished with chopped cabbage. Salsa rosa is also added.",
+					"ingredients":[
+						"bread",
+						"pork",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"gluten",
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "do06",
+					"name": "Fritos verdes",
+					"picture": "fritos-verdes.jpg",
+					"description": "Fried plantain slices, and are a popular side dish in many Latin American countries.",
+					"ingredients":[
+						"banana",
+						"olive-oil"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do07",
+					"name": "Kipe",
+					"picture": "kipe.jpg",
+					"description": "A version of the Middle Eastern kibbeh, brought by a wave of Middle Eastern immigrants that arrived in the Dominican Republic at the end of the 19th century.",
+					"ingredients":[
+						"meat",
+						"wheat",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "do08",
+					"name": "La Bandera",
+					"picture": "bandera.jpg",
+					"description": "The Dominican national dish. La Bandera ('The Flag'), consists of rice, red beans and meat (beef, chicken, pork, or fish).",
+					"ingredients":[
+						"rice",
+						"bean",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "do09",
+					"name": "Locrio de pollo",
+					"picture": "locrio-pollo.jpg",
+					"description": "A traditional dish of Spain and Latin America, especially in Colombia, Cuba, Costa Rica, Honduras, Nicaragua, Venezuela, Panama, Peru and Puerto Rico. In the Dominican Republic it is called locrio de pollo, and Saint Martin where it is called lokri or locreo.",
+					"ingredients":[
+						"rice",
+						"chicken",
+						"vegetables"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "do10",
+					"name": "Majarete",
+					"picture": "majarete.jpg",
+					"description": "A typical dessert in Venezuela and the Dominican Republic. It is one of the traditional sweets of the season of Lent, although it can also be consumed throughout the year.",
+					"ingredients":[
+						"corn",
+						"coconut",
+						"sugar",
+						"cinnamon"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do11",
+					"name": "Mangú",
+					"picture": "mangu.jpg",
+					"description": "A Dominican traditional side dish served for breakfast, lunch or dinner. In Cuba, and parts of Africa it is known as fufu. Mangú is made up of boiled green plantains.",
+					"ingredients":[
+						"banana"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do12",
+					"name": "Mofongo",
+					"picture": "mofongo.jpg",
+					"description": "A fried plantain-based Dominican comfort dish borrowed from Puerto Rican cuisine. It is typically made with fried green plantains mashed together in a pilón (which consists of a wooden mortar and pestle), with broth, garlic, olive oil, and pork cracklings or bits of bacon. It can be filled with vegetables, chicken, crab, shrimp, or beef and is often served with fried meat and chicken broth soup.",
+					"ingredients":[
+						"banana",
+						"pork",
+						"bacon",
+						"olive-oil",
+						"garlic"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "do13",
+					"name": "Morir soñando",
+					"picture": "morir-sonando.jpg",
+					"description": "a popular beverage of the Dominican Republic which has made its way to other Hispanic countries, usually made of orange juice, milk, cane sugar, and chopped ice. Sometimes vanilla extract is also added, or evaporated milk is used instead of regular milk.",
+					"ingredients":[
+						"orange",
+						"milk",
+						"sugar"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "do14",
+					"name": "Moro de guandules",
+					"picture": "moro-guandules.jpg",
+					"description": "A traditional coconut rice and pigeon pea dish served on Christmas. Moros in Dominican Republic cuisine is very similar to Jamaican rice and peas. The rice is flavored with thyme or oregano, coconut milk, chicken bouillon, sofrito, and the option of capers.",
+					"ingredients":[
+						"rice",
+						"coconut",
+						"pea"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "do15",
+					"name": "Pasteles en hoja",
+					"picture": "pasteles-hoja.jpg",
+					"description": "Originated in the Puerto Rico tubers and/or plantains are grated and the paste is formed into a rectangular purse shape, stuffed with meat. They are then tightly wrapped in a banana leaf and boiled. Pasteles are usually served on Christmas and have become a staple in Dominican cuisine.",
+					"ingredients":[
+						"banana",
+						"pork",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "do16",
+					"name": "Queso Frito",
+					"picture": "queso-frito.jpg",
+					"description": "A Dominican dish, often served for breakfast. It consists of a white, salty cheese with a high melting point called 'Queso de freir' (Spanish for frying cheese) or 'Queso blanco' (Spanish for white cheese).",
+					"ingredients":[
+						"cheese"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "do17",
+					"name": "Sancocho",
+					"picture": "sancocho.jpg",
+					"description": "A traditional soup (often considered a stew) in several Latin American cuisines derived from the Spanish dish known as cocido. Dominican 'sancocho' is considered one of the national dishes, along with 'La Bandera'. There is a variant called Sancocho cruzado or Sancocho de siete carnes which includes pollo (chicken), res (beef) and cerdo (pork) along with other meats and it is considered the ultimate sancocho dish.",
+					"ingredients":[
+						"meat",
+						"chicken",
+						"pork",
+						"cassava",
+						"potato",
+						"banana",
+						"corn",
+						"vegetables",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "do18",
+					"name": "Sopa de mondongo",
+					"picture": "sopa-mondongo.jpg",
+					"description": "A soup made from diced tripe (the stomach of a cow) slow-cooked with vegetables such as bell peppers, onions, carrots, cabbage, celery, tomatoes, cilantro (coriander), garlic or root vegetables.",
+					"ingredients":[
+						"meat",
+						"vegetables",
+						"onion",
+						"tomato",
+						"cabbage",
+						"cassava",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "do19",
+					"name": "Wasakaka",
+					"picture": "wasakaka.jpg",
+					"description": "Mojo sauce know as waskaka in The Dominican Republic. It refers to roasted chicken marinated in sour orange and garlic with boiled cassava on the side. A play of a classic Cuban dish roasted pork in mojo with fried or steamed cassava.",
+					"ingredients":[
+						"chicken",
+						"orange",
+						"garlic",
+						"cassava"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "do20",
+					"name": "Yanikeke",
+					"picture": "yanikeke.jpg",
+					"description": "A Dominican Republic version of the jonnycake, supposedly brought over in the 19th century by the Cocolos, or English-speaking migrants (possibly of Afro-Caribbean descent). These cakes are made with flour, baking soda, and water; they are, however, typically deep-fried.",
+					"ingredients":[
+						"corn",
+						"flour"
+					],
+					"contains":[
+						"gluten"
+					]
+				}
+			]
+		},{
+			"country": "France",
+			"flag": "fra.svg",
+			"dishes":[
+				{
+					"id": "fr01",
+					"name": "Andouillette",
+					"picture": "andouillette.jpg",
+					"description": "A coarse-grained sausage made with pork (or occasionally veal), intestines or chitterlings, pepper, wine, onions, and seasonings.",
+					"ingredients":[
+						"pork",
+						"wine",
+						"onion",
+						"pepper"
+					],
+					"contains":[
+						"meat",
+						"pork"
+					]
+				},{
+					"id": "fr02",
+					"name": "Boeuf bourguignon",
+					"picture": "boeuf-bourguignon.jpg",
+					"description": "A stew prepared with beef braised in red wine, traditionally red Burgundy, and beef broth, generally flavoured with garlic, onions and a bouquet garni, with pearl onions and mushrooms added towards the end of cooking.",
+					"ingredients":[
+						"meat",
+						"garlic",
+						"onion",
+						"wine",
+						"mushroom"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "fr03",
+					"name": "Camembert",
+					"picture": "camembert.jpg",
+					"description": "A soft, creamy, surface-ripened cow's milk cheese. It was first made in the late 18th century at Camembert, Normandy in northern France.",
+					"ingredients":[
+						"cheese"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "fr04",
+					"name": "Cassoulet",
+					"picture": "cassoulet.jpg",
+					"description": "A rich, slow-cooked casserole originating in the south of France, containing meat (typically pork sausages, goose, duck and sometimes mutton), pork skin (couennes) and white beans (haricots blancs).",
+					"ingredients":[
+						"meat",
+						"white-bean"
+					],
+					"contains":[
+						"meat",
+						"pork",
+						"gluten"
+					]
+				},{
+					"id": "fr05",
+					"name": "Confit de canard",
+					"picture": "confit-canard.jpg",
+					"description": "A French dish made with the leg of the duck. The confit is prepared in a centuries-old process of preservation that consists of salt curing a piece of meat (generally goose, duck, or pork) and then cooking it in its own fat.",
+					"ingredients":[
+						"duck",
+						"garlic",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "fr06",
+					"name": "Crêpe",
+					"picture": "crepe.jpg",
+					"description": "A type of very thin pancake, usually made from wheat flour (crêpes de Froment) or buckwheat flour (galettes).",
+					"ingredients":[
+						"flour",
+						"egg",
+						"milk"
+					],
+					"contains":[
+						"dairy",
+						"egg",
+						"gluten"
+					]
+				},{
+					"id": "fr07",
+					"name": "Croque-monsieur",
+					"picture": "croque-monsieur.jpg",
+					"description": "A grilled ham and cheese sandwich. It originated in French cafés and bars as a quick snack. Typically, Emmental or Gruyère cheese is used.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"cheese"
+					],
+					"contains":[
+						"meat",
+						"pork",
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "fr08",
+					"name": "Escargot",
+					"picture": "escargot.jpg",
+					"description": "A dish of cooked land snails, usually served as an appetizer in France and in French restaurants.",
+					"ingredients":[
+						"snail",
+						"garlic"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "fr09",
+					"name": "Flammekueche",
+					"picture": "flammekueche.jpg",
+					"description": "An Alsatian dish composed of bread dough rolled out very thin in the shape of a rectangle (traditionally) or circle, which is covered with fromage blanc or crème fraîche, thinly sliced onions and lardons. It is one of the most famous specialties of the region.",
+					"ingredients":[
+						"bread",
+						"cream",
+						"onion",
+						"bacon"
+					],
+					"contains":[
+						"gluten",
+						"dairy",
+						"meat",
+						"pork"
+					]
+				},{
+					"id": "fr10",
+					"name": "Foie gras",
+					"picture": "foie-gras.jpg",
+					"description": "A food product made of the liver of a duck or goose that has been specially fattened. By French law,[1] foie gras is defined as the liver of a duck or goose fattened by force-feeding corn with a gavage.",
+					"ingredients":[
+						"duck"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "fr20",
+					"name": "Fondue savoyarde",
+					"picture": "fondue-savoyarde.jpg",
+					"description": "A French dish of melted cheese served in a communal pot (caquelon) over a portable stove (réchaud), and eaten by dipping long-stemmed forks with bread into the cheese.",
+					"ingredients":[
+						"cheese",
+						"bread",
+						"white-wine",
+						"garlic",
+						"herbs"
+					],
+					"contains":[
+						"dairy",
+						"gluten"
+					]
+				},{
+					"id": "fr11",
+					"name": "Macaron",
+					"picture": "macaron.jpg",
+					"description": "A sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond powder or ground almond, and food colouring. The macaron is commonly filled with ganache, buttercream or jam filling sandwiched between two biscuits. ",
+					"ingredients":[
+						"meringue",
+						"egg",
+						"sugar",
+						"almond"
+					],
+					"contains":[
+						"egg",
+						"nuts"
+					]
+				},{
+					"id": "fr12",
+					"name": "Mille-feuille",
+					"picture": "mille-feuille.jpg",
+					"description": "The mille-feuille, vanilla slice, custard slice, also known as the Napoleon, is a French pastry of which the exact origin is unknown. Traditionally, a mille-feuille is made up of three layers of puff pastry (pâte feuilletée), alternating with two layers of pastry cream (crème pâtissière), but sometimes whipped cream or jam are substituted.",
+					"ingredients":[
+						"puff-pastry",
+						"cream"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "fr19",
+					"name": "Pain au chocolat",
+					"picture": "pain-chocolat.jpg",
+					"description": "A viennoiserie sweet roll consisting of a cuboid-shaped piece of yeast-leavened laminated dough, similar in texture to a puff pastry, with one or two pieces of dark chocolate in the centre.",
+					"ingredients":[
+						"dough",
+						"sugar",
+						"cocoa"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "fr13",
+					"name": "Quiche",
+					"picture": "quiche.jpg",
+					"description": "A savoury, open-faced pastry crust with a filling of savoury custard with cheese, meat, seafood, and/or vegetables.",
+					"ingredients":[
+						"puff-pastry",
+						"cheese",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"dairy",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "fr14",
+					"name": "Ratatouille",
+					"picture": "ratatouille.jpg",
+					"description": "A traditional French Provençal stewed vegetable dish, originating in Nice. The full name of the dish is ratatouille niçoise.",
+					"ingredients":[
+						"vegetables",
+						"garlic",
+						"herbs"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "fr15",
+					"name": "Salade niçoise",
+					"picture": "salade-nicoise.jpg",
+					"description": "A composed salad of tomatoes, tuna, hard-boiled eggs, Niçoise olives, and anchovies, dressed with a vinaigrette.",
+					"ingredients":[
+						"tomato",
+						"fish",
+						"egg",
+						"olive"
+					],
+					"contains":[
+						"seafood",
+						"egg"
+					]
+				},{
+					"id": "fr16",
+					"name": "Soupe à l'oignon",
+					"picture": "soupe-oignon.jpg",
+					"description": "A type of soup usually based on meat stock, and often served gratinéed with croutons and cheese on top.",
+					"ingredients":[
+						"onion",
+						"bread",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "fr17",
+					"name": "Tartiflette",
+					"picture": "tartiflette.jpg",
+					"description": "A French dish from the Savoie and Haute Savoie region of France. It is made with potatoes, reblochon cheese, lardons and onions.",
+					"ingredients":[
+						"potato",
+						"cheese",
+						"bacon",
+						"onion"
+					],
+					"contains":[
+						"meat",
+						"pork",
+						"dairy"
+					]
+				},{
+					"id": "fr18",
+					"name": "Tapenade",
+					"picture": "tapenade.jpg",
+					"description": "A Provençal dish consisting of puréed or finely chopped olives, capers, anchovies and olive oil.",
+					"ingredients":[
+						"olive",
+						"bread",
+						"fish",
+						"vegetables"
+					],
+					"contains":[
+						"gluten",
+						"seafood"
+					]
+				}
+			]
+		},{
+			"country": "Hungary",
+			"flag": "hun.svg",
+			"dishes":[
+				{
+					"id": "hu01",
+					"name": "Dobos torta",
+					"picture": "dobos-torta.jpg",
+					"description": "A Hungarian sponge cake layered with chocolate buttercream and topped with caramel. The five-layer pastry is named after its inventor, Hungarian confectioner József C. Dobos, who aimed to create a cake that would last longer than other pastries in an age when cooling techniques were limited.",
+					"ingredients":[
+						"cocoa",
+						"almond",
+						"sugar"
+					],
+					"contains":[
+						"nuts"
+					]
+				},{
+					"id": "hu02",
+					"name": "Fatányéros",
+					"picture": "fatanyeros.jpg",
+					"description": "A famous traditional Hungarian mixed meat barbecue dish, (or pecsenye in Hungarian) originating from Transylvania.",
+					"ingredients":[
+						"meat",
+						"pork",
+						"chicken"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "hu03",
+					"name": "Főzelék",
+					"picture": "fozelek.jpg",
+					"description": "A type of thick Hungarian vegetable stew. Főzelék is a special category in Hungarian cuisine, not quite like a soup, and thinner than a stew. It is simply cooked, typically by simmering, not mashed. It is usually not cooked with meat, but bacon and spicy sausage may be added for flavor.",
+					"ingredients":[
+						"vegetables",
+						"meat"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "hu04",
+					"name": "Gulyás",
+					"picture": "gulyás.jpg",
+					"description": "A soup or stew of meat, and vegetables, seasoned with paprika and other spices. Originating from the medieval Kingdom of Hungary, goulash is also a popular meal in Central Europe, Scandinavia and Southern Europe. Its origin traces back to the 9th century.",
+					"ingredients":[
+						"meat",
+						"vegetables",
+						"pepper",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu05",
+					"name": "Gulyásleves",
+					"picture": "gulyasleves.jpg",
+					"description": "A Hungarian soup, made of beef, vegetables, ground paprika and other spices. It originates from a dish cooked by the cattlemen (gulyás also means herdsman) who tended their herds in the Great Hungarian Plain, known as the Alföld or Puszta in Hungarian.",
+					"ingredients":[
+						"meat",
+						"vegetables",
+						"pepper",
+						"herbs"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu06",
+					"name": "Halászlé",
+					"picture": "halaszle.jpg",
+					"description": "A hot, spicy paprika-based river fish soup, originating as a dish of Hungarian cuisine, a bright red hot soup prepared with generous amounts of hot paprika and carp or mixed river fish, characteristic for the cuisines of the Pannonian Plain, particularly prepared in the Danube and Tisza river regions.",
+					"ingredients":[
+						"fish",
+						"vegetables",
+						"tomato",
+						"onion",
+						"pepper",
+						"spicy"
+					],
+					"contains":[
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "hu07",
+					"name": "Hortobágyi",
+					"picture": "Hortobagyi-palacsinta.jpg",
+					"description": "A savoury Hungarian pancake, filled with meat (usually veal). The meat is prepared as a stew; minced meat is fried with onions and spices like the pörkölt or the paprikás dish, using, veal, veal with mushrooms, chicken or Hungarian sausage. The pancakes are filled with the minced meat, tucking in the ends, and are baked in the oven with a pepper and sour cream, then topped with fresh parsley.",
+					"ingredients":[
+						"veal",
+						"onion",
+						"herbs",
+						"pepper",
+						"cream"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu20",
+					"name": "Húsleves",
+					"picture": "husleves.jpg",
+					"description": "Hungarian chicken soup is a clear soup, a consommé, called Újházi chicken soup. A consommé with entire pieces of chicken, chicken liver and heart, with chunky vegetables and spices like whole black peppercorn, bay leaves, salt and ground black pepper. The vegetables boiled along with the pieces of chicken are usually carrots, celeriac, parsley root and parsnip.",
+					"ingredients":[
+						"chicken",
+						"pepper",
+						"black-pepper",
+						"vegetables"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu08",
+					"name": "Kolbász",
+					"picture": "kolbasz.jpg",
+					"description": "A cooked Hungarian sausage, usually smoked. The best known and most popular versions are Gyulai sausage, Csabai sausage, Csemege kolbász, Cserkész kolbász, Debreceni kolbász and Lecsókolbász.",
+					"ingredients":[
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "hu09",
+					"name": "Lecsó",
+					"picture": "lecso.jpg",
+					"description": "A Hungarian thick vegetable ragout or stew which features green and/or red peppers and tomato, onion, lard, salt, sugar and ground sweet and/or hot paprika as a base recipe. The onions and peppers are usually sauteed in lard, bacon fat or sunflower oil. Garlic can also be a traditional ingredient.",
+					"ingredients":[
+						"vegetables",
+						"pepper",
+						"tomato",
+						"onion",
+						"garlic"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "hu10",
+					"name": "Meggyleves",
+					"picture": "meggyleves.jpg",
+					"description": "A slightly sweet soup made with sour cream, sugar, and whole fresh sour cherries, and served chilled. Originating in Hungarian cuisine, this soup is a summer delicacy in several European cuisines.",
+					"ingredients":[
+						"cream",
+						"sugar",
+						"cherry"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "hu11",
+					"name": "Pálinka",
+					"picture": "palinka.jpg",
+					"description": "A traditional fruit brandy in the countries of the Carpathian Basin, known under several names, and invented in the Middle Ages. Protected as a geographical indication of the European Union, only fruit spirits mashed, distilled, matured and bottled in Hungary, and similar apricot spirits from four provinces of Austria can be called pálinka.",
+					"ingredients":[
+						"fruits",
+						"gin"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "hu12",
+					"name": "Paprikás csirke",
+					"picture": "paprikas-csirke.jpg",
+					"description": "A dish of Hungarian origin and one of the most famous Hungarian stews. Cooked bell peppers (aka paprika, as in the spice) are common in Hungarian cuisine, and dishes cooked in a creamy, red paprika stew have been referred to as a Hungarian staple.",
+					"ingredients":[
+						"chicken",
+						"pepper",
+						"cream"
+					],
+					"contains":[
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "hu13",
+					"name": "Pörkölt",
+					"picture": "porkolt.jpg",
+					"description": "a Hungarian stew with boneless meat, paprika, some vegetables and no potato. It should not be confused with Goulash, a stew with more gravy or a soup, or Paprikás. They are considered to be the national dishes of Hungary.",
+					"ingredients":[
+						"meat",
+						"pepper",
+						"vegetables"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu14",
+					"name": "Sólet",
+					"picture": "solet.jpg",
+					"description": "A traditional Hungarian-Jewish stew made with kidney beans, barley, onions, paprika, and usually meat. While traditionally a Jewish food, prepared on Fridays before Shabbat and eaten the following day for lunch, it is also commonly eaten by Hungarians who may even add pork.",
+					"ingredients":[
+						"bean",
+						"onion",
+						"pepper",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "hu15",
+					"name": "Stefánia szelet",
+					"picture": "Stefania-szelet.jpg",
+					"description": "A type of Hungarian long meatloaf baked in a loaf pan, with 3 hard boiled eggs in the middle, making decorative white and yellow rings in the middle of the slices.",
+					"ingredients":[
+						"meat",
+						"egg"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "hu16",
+					"name": "Szilvásgombóc",
+					"picture": "szilvasgomboc.jpg",
+					"description": "A Central and East European dish. The plum dumplings can be eaten as dessert, as a main dish or side dish. The dough is made with mashed potatoes. Some recipes use eggs in the dough, some flour. The dough is flattened out and cut into squares. The plums are inserted inside the dumplings by hand.",
+					"ingredients":[
+						"potato",
+						"egg",
+						"plum",
+						"sugar"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "hu17",
+					"name": "Téliszalámi",
+					"picture": "teliszalami.jpg",
+					"description": "A type of Hungarian salami based on a centuries old producing tradition. Made from mangalitsa pork and spices: white pepper, allspice and others. Winter salami is cured in cold air and smoked slowly. During the dry ripening process a special noble-mold is formed on the casing surface.",
+					"ingredients":[
+						"pork",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "hu18",
+					"name": "Töltött káposzta",
+					"picture": "toltott-kaposzta.jpg",
+					"description": "The traditional Hungarian cabbage roll (töltött káposzta) can be made from pickled cabbage leaves, filled with minced pork meat. The Hungarian version always contains minced pepper (paprika) and is served with sour cream on top. Hungarians serve this food during the periods of time near Christmas and New Year's, but stuffed cabbage also belongs to the traditional pig slaughter.",
+					"ingredients":[
+						"cabbage",
+						"pork",
+						"pepper",
+						"cream"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "hu19",
+					"name": "Túrós csusza",
+					"picture": "turos-csusza.jpg",
+					"description": "A Hungarian savoury curd cheese noodle dish or cottage cheese noodle dish made with small home-made noodles or pasta. Turoscsusza is a traditional pasta dish in Hungarian cuisine.",
+					"ingredients":[
+						"pasta",
+						"cheese"
+					],
+					"contains":[
+						"dairy"
+					]
+				}
+			]
+		},{
+			"country": "Italy",
+			"flag": "ita.svg",
+			"dishes":[
+				{
+					"id": "it01",
+					"name": "Agnolotti",
+					"picture": "agnolotti.jpg",
+					"description": "A type of pasta typical of the Piedmont region of Italy, made with small pieces of flattened pasta dough, folded over with a roast beef meat and vegetable stuffing.",
+					"ingredients":[
+						"flour",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "it02",
+					"name": "Bruschetta",
+					"picture": "bruschetta.jpg",
+					"description": "An antipasto from Italy consisting of grilled bread rubbed with garlic and topped with tomatoes, olive oil, salt and pepper.",
+					"ingredients":[
+						"bread",
+						"garlic",
+						"olive-oil",
+						"vegetables",
+						"meat",
+						"cheese"
+					],
+					"contains":[
+						"meat",
+						"dairy",
+						"gluten"
+					]
+				},{
+					"id": "it04",
+					"name": "Cacciucco",
+					"picture": "cacciucco.jpg",
+					"description": "An Italian fish stew native to the western coastal towns of Tuscany and Liguria. It is especially associated with the port city of Livorno in Tuscany and the town of Viareggio to the north.",
+					"ingredients":[
+						"fish",
+						"mussel",
+						"shrimp"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "it06",
+					"name": "Cannoli",
+					"picture": "cannoli.jpg",
+					"description": " Italian pastry desserts. The singular is cannolo (or in the Sicilian language cannolu, plural cannola), meaning 'little tube', with the etymology stemming from the Latin 'canna', or reed. Cannoli originated in Sicily and are a staple of Sicilian cuisine.",
+					"ingredients":[
+						"puff-pastry",
+						"cheese",
+						"sugar"
+					],
+					"contains":[
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "it07",
+					"name": "Cappon magro",
+					"picture": "cappon.jpg",
+					"description": "An elaborate and rich Genoese salad of seafood and vegetables over hard tack arranged into a decorative pyramid and dressed with a rich sauce.",
+					"ingredients":[
+						"shrimp",
+						"vegetables"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "it08",
+					"name": "Carbonara",
+					"picture": "carbonara.jpg",
+					"description": "An Italian pasta dish from Lazio, and more specifically Rome, based on eggs, cheese (Pecorino Romano or Parmigiano-Reggiano), bacon (guanciale or pancetta), and black pepper.",
+					"ingredients":[
+						"egg",
+						"cheese",
+						"bacon",
+						"black-pepper"
+					],
+					"contains":[
+						"egg",
+						"pork",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "it09",
+					"name": "Cotoletta",
+					"picture": "cotoletta.jpg",
+					"description": "A fried cutlet similar to Wiener schnitzel, but cooked 'bone-in'. It is fried in clarified butter only and traditionally uses exclusively milk-fed veal.",
+					"ingredients":[
+						"veal",
+						"flour"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "it10",
+					"name": "Insalata Caprese",
+					"picture": "caprese.jpg",
+					"description": "A simple salad, made of sliced fresh mozzarella, tomatoes and basil, seasoned with salt, and olive oil.",
+					"ingredients":[
+						"cheese",
+						"tomato",
+						"herbs",
+						"olive-oil"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "it11",
+					"name": "Lasagne",
+					"picture": "lasagne.jpg",
+					"description": "A wide, flat pasta shape, and possibly one of the oldest types of pasta. The word also refers to a dish made with several layers of lasagne sheets alternated with sauces and various other ingredients.",
+					"ingredients":[
+						"flour",
+						"meat",
+						"cream",
+						"tomato",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "it12",
+					"name": "Minestrone",
+					"picture": "minestrone.jpg",
+					"description": "A thick soup of Italian origin made with vegetables, often with the addition of pasta or rice. Common ingredients include beans, onions, celery, carrots, stock, and tomatoes.",
+					"ingredients":[
+						"vegetables",
+						"tomato",
+						"rice",
+						"pasta"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "it14",
+					"name": "Panzanella",
+					"picture": "panzanella.jpg",
+					"description": "A Tuscan salad of bread and tomatoes that's popular in the summer. It includes chunks of soaked stale bread and tomatoes, sometimes also onions and basil, dressed with olive oil and vinegar.",
+					"ingredients":[
+						"bread",
+						"tomato",
+						"onion",
+						"herbs",
+						"olive-oil"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "it17",
+					"name": "Pasta e fagioli",
+					"picture": "fagioli.jpg",
+					"description": "A traditional meatless Italian dish. Like many other Italian favorites including pizza and polenta, the dish started as a peasant dish, being composed of inexpensive ingredients.",
+					"ingredients":[
+						"pasta",
+						"white-bean",
+						"garlic",
+						"onion",
+						"tomato",
+						"olive-oil"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "it18",
+					"name": "Penne all'arrabbiata",
+					"picture": "arrabbiata.jpg",
+					"description": "Arrabbiata sauce, or sugo all'arrabbiata in Italian, is a spicy sauce for pasta made from garlic, tomatoes, and red chili peppers cooked in olive oil. 'Arrabbiata' literally means 'angry' in Italian, and the name of the sauce is due to the heat of the chili peppers.",
+					"ingredients":[
+						"pasta",
+						"tomato",
+						"spicy",
+						"garlic",
+						"olive-oil"
+					],
+					"contains":[
+						"gluten",
+						"spicy"
+					]
+				},{
+					"id": "it19",
+					"name": "Pesto",
+					"picture": "pesto.jpg",
+					"description": "A sauce originating in Genoa in the Liguria region of northern Italy (pesto genovese), and traditionally consists of crushed garlic, basil, and European pine nuts blended with olive oil, Parmigiano Reggiano, and Fiore Sardo.",
+					"ingredients":[
+						"garlic",
+						"herbs",
+						"pine-nut",
+						"olive-oil",
+						"cheese"
+					],
+					"contains":[
+						"dairy",
+						"nuts"
+					]
+				},{
+					"id": "it20",
+					"name": "Pizza",
+					"picture": "pizza.jpg",
+					"description": "An oven-baked flat bread typically topped with a tomato sauce, cheese and various toppings. The modern pizza was invented in Naples, Italy, and the dish has since become popular in many parts of the world.",
+					"ingredients":[
+						"dough",
+						"tomato",
+						"cheese",
+						"herbs"
+					],
+					"contains":[
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "it21",
+					"name": "Polenta",
+					"picture": "polenta.jpg",
+					"description": "Cornmeal boiled into a porridge, and eaten directly or baked, fried or grilled. The term is of Italian origin, derived from the Latin for hulled and crushed grain (especially barley-meal). It comes from the same base as 'pollen'.",
+					"ingredients":[
+						"corn"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "it22",
+					"name": "Ragù alla bolognese",
+					"picture": "bolognese.jpg",
+					"description": "A meat-based sauce originating from Bologna, Italy. In Italian cuisine, it is customarily used to dress 'tagliatelle al ragù' and to prepare 'lasagne alla bolognese'.",
+					"ingredients":[
+						"meat",
+						"onion",
+						"herbs",
+						"carrot",
+						"tomato",
+						"wine"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "it25",
+					"name": "Risotto",
+					"picture": "risotto.jpg",
+					"description": "A north Italian rice dish cooked in broth to a creamy consistency. The broth may be based on meat, fish, or vegetable. Many types of risotto contain butter, wine and onion. It is one of the most common ways of cooking rice in Italy.",
+					"ingredients":[
+						"rice",
+						"meat",
+						"fish",
+						"vegetables",
+						"wine",
+						"onion"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "it26",
+					"name": "Saltimbocca",
+					"picture": "saltimbocca.jpg",
+					"description": "A dish made of veal lined or topped with prosciutto and sage; marinated in wine, oil or saltwater depending on the region or one's own taste.",
+					"ingredients":[
+						"veal",
+						"bacon",
+						"white-wine"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "it27",
+					"name": "Tiramisu",
+					"picture": "tiramisu.jpg",
+					"description": "A popular coffee-flavoured Italian dessert. It is made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar and mascarpone cheese, flavoured with cocoa.",
+					"ingredients":[
+						"egg",
+						"cocoa",
+						"coffee",
+						"cheese",
+						"biscuit",
+						"sugar"
+					],
+					"contains":[
+						"egg",
+						"dairy",
+						"gluten"
+					]
+				}
+			]
+		},{
+			"country": "Japan",
+			"flag": "jpn.svg",
+			"dishes":[
+				{
+					"id": "jp01",
+					"name": "Bento",
+					"picture": "bento.jpg",
+					"description": "弁当. A single-portion takeout or home-packed meal common in Japanese cuisine. A traditional bento holds rice, fish or meat, with pickled or cooked vegetables, usually in a box-shaped container. Containers range from disposable mass produced to hand crafted lacquerware.",
+					"ingredients":[
+						"rice",
+						"fish",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "jp02",
+					"name": "Gyōza",
+					"picture": "gyoza.jpg",
+					"description": "餃子. Chinese ravioli-dumplings (potstickers), usually filled with pork and vegetables (spring onion, leek, cabbage, garlic, and ginger) and pan-fried. The most prominent differences between Japanese-style gyōza and Chinese-style jiaozi are the rich garlic flavor, which is less noticeable in the Chinese version, the light seasoning of Japanese gyōza with salt and soy sauce, and the fact that gyōza wrappers are much thinner",
+					"ingredients":[
+						"dough",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"gluten",
+						"meat"
+					]
+				},{
+					"id": "jp03",
+					"name": "Gyūdon",
+					"picture": "gyudon.jpg",
+					"description": "牛丼. A Japanese dish consisting of a bowl of rice topped with beef and onion simmered in a mildly sweet sauce flavored with dashi (fish and seaweed stock), soy sauce and mirin (sweet rice wine). It also often includes shirataki noodles, and is sometimes topped with a raw egg.",
+					"ingredients":[
+						"rice",
+						"meat",
+						"onion",
+						"soy-sauce",
+						"egg"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "jp04",
+					"name": "Japanese curry",
+					"picture": "japanese-curry.jpg",
+					"description": "カレー. One of the most popular dishes in Japan. It is commonly served in three main forms: curry rice (カレーライス, curry over rice), curry udon (curry over noodles), and curry bread (a curry-filled pastry). Curry was introduced to Japan during the Meiji era (1868–1912) by the British, at a time when India was under their administration.  It has been adapted since its introduction to Japan, and is so widely consumed that it can be called a national dish.",
+					"ingredients":[
+						"potato",
+						"carrot",
+						"onion",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "jp05",
+					"name": "Katsudon",
+					"picture": "katsudon.jpg",
+					"description": "カツ丼. A popular Japanese food, a bowl of rice topped with a deep-fried pork cutlet, egg, and condiments. The dish takes its name from the Japanese words tonkatsu (for pork cutlet) and donburi (for rice bowl dish). It has become a modern ritual tradition for Japanese students to eat katsudon the night before taking a major test or school entrance exam. This is because 'katsu' is a homophone of the verb 勝つ katsu, meaning 'to win' or 'to be victorious'.",
+					"ingredients":[
+						"rice",
+						"pork",
+						"egg",
+						"flour"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "jp06",
+					"name": "Matcha ice cream",
+					"picture": "matcha-ice-cream.jpg",
+					"description": "抹茶アイスクリーム. A Japanese ice cream flavor. This flavor is extremely popular in Japan and other parts of East Asia. Green tea ice cream is also sold in monaka form.",
+					"ingredients":[
+						"matcha",
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "jp07",
+					"name": "Miso soup",
+					"picture": "miso-soup.jpg",
+					"description": "味噌汁. A traditional Japanese soup consisting of a stock called 'dashi' into which softened miso paste is mixed. Many ingredients are added depending on regional and seasonal recipes, and personal preference.",
+					"ingredients":[
+						"soy-sprout",
+						"tofu",
+						"onion",
+						"seaweed",
+						"herbs"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "jp08",
+					"name": "Nattō",
+					"picture": "natto.jpg",
+					"description": "なっとう. A traditional Japanese food made from soybeans fermented with Bacillus subtilis var. natto. Some eat it as a breakfast food. Nattō may be an acquired taste because of its powerful smell, strong flavor, and slimy texture. In Japan nattō is most popular in the eastern regions, including Kantō, Tōhoku, and Hokkaido. Beyond Japan in the far corner of northeastern India Manipur Natto alike Hawaijar is very famous among the people.",
+					"ingredients":[
+						"soy-sprout"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "jp09",
+					"name": "Okonomiyaki",
+					"picture": "okonomiyaki.jpg",
+					"description": "お好み焼き. A Japanese savoury pancake containing a variety of ingredients. The name is derived from the word okonomi, meaning 'what you like' or 'what you want', and yaki meaning 'grilled' or 'cooked' (cf. yakitori and yakisoba). Okonomiyaki is mainly associated with the Kansai or Hiroshima areas of Japan, but is widely available throughout the country.",
+					"ingredients":[
+						"noodle",
+						"egg",
+						"cabbage",
+						"meat",
+						"octopus",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"egg",
+						"meat",
+						"seafood",
+						"dairy"
+					]
+				},{
+					"id": "jp10",
+					"name": "Onigiri",
+					"picture": "onigiri.jpg",
+					"description": "お握り. A Japanese food made from white rice formed into triangular or oval shapes and often wrapped in nori (seaweed). Traditionally, an onigiri is filled with pickled ume (umeboshi), salted salmon, katsuobushi, kombu, tarako, or any other salty or sour ingredient as a natural preservative.",
+					"ingredients":[
+						"rice",
+						"seaweed",
+						"fish"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "jp11",
+					"name": "Sake",
+					"picture": "sake.jpg",
+					"description": "清酒. An alcoholic beverage of Japanese origin that is made from fermented rice. Sake is sometimes called 'rice wine' but the brewing process is more akin to beer, converting starch to sugar for the fermentation process",
+					"ingredients":[
+						"rice"
+					],
+					"contains":[
+						"alcoholic"
+					]
+				},{
+					"id": "jp12",
+					"name": "Soba",
+					"picture": "soba.jpg",
+					"description": "蕎麦. A type of thin noodle made from buckwheat flour, and in Japan can refer to any thin noodle (unlike thick wheat noodles, known as udon). Soba noodles are served either chilled with a dipping sauce, or in hot broth as a noodle soup.",
+					"ingredients":[
+						"wheat"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "jp13",
+					"name": "Sukiyaki",
+					"picture": "sukiyaki.jpg",
+					"description": "すき焼き. A Japanese dish, of the soup or stew type, prepared and served in the nabemono (Japanese hot pot) style. It consists of meat (usually thinly sliced beef) which is slowly cooked or simmered at the table, alongside vegetables and other ingredients, in a shallow iron pot in a mixture of soy sauce, sugar, and mirin. Before being eaten, the ingredients are usually dipped in a small bowl of raw, beaten eggs.",
+					"ingredients":[
+						"meat",
+						"vegetables",
+						"soy-sauce",
+						"noodle"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "jp14",
+					"name": "Sushi",
+					"picture": "sushi.jpg",
+					"description": "寿司. A Japanese food consisting of cooked vinegared rice (鮨飯) combined with other ingredients (ネタ), seafood, vegetables and sometimes tropical fruits. Sushi is often prepared with raw seafood, but some common varieties of sushi use cooked ingredients. Raw fish (or occasionally other meat) sliced and served without rice is called 'sashimi'.",
+					"ingredients":[
+						"rice",
+						"fish",
+						"vegetables"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "jp15",
+					"name": "Takoyaki",
+					"picture": "takoyaki.jpg",
+					"description": "たこ焼き. A ball-shaped Japanese snack made of a wheat flour-based batter and cooked in a special takoyaki pan. It is typically filled with minced or diced octopus (tako), tempura scraps (tenkasu), pickled ginger, and green onion. Takoyaki are brushed with takoyaki sauce, similar to Worcestershire sauce, and mayonnaise.",
+					"ingredients":[
+						"wheat",
+						"octopus",
+						"ginger",
+						"onion"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "jp16",
+					"name": "Tempura",
+					"picture": "tempura.jpg",
+					"description": "天ぷら. A Japanese dish of seafood or vegetables that have been battered and deep fried.",
+					"ingredients":[
+						"wheat",
+						"vegetables",
+						"shrimp"
+					],
+					"contains":[
+						"gluten",
+						"seafood"
+					]
+				},{
+					"id": "jp17",
+					"name": "Tonkatsu",
+					"picture": "tonkatsu.jpg",
+					"description": "豚カツ. A Japanese food which consists of a breaded, deep-fried pork cutlet. There are two main types, hire and rosu. It is often served with shredded cabbage. Tonkatsu originated in Japan in the 19th century. As well as being served as a single dish, it is also used as a sandwich filling or in combination with curry.",
+					"ingredients":[
+						"pork",
+						"wheat",
+						"cabbage"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "jp18",
+					"name": "Udon",
+					"picture": "udon.jpg",
+					"description": "うどん. A type of thick wheat flour noodle of Japanese cuisine. Udon is often served hot as a noodle soup in its simplest form, as kake udon, in a mildly flavoured broth called kakejiru, which is made of dashi, soy sauce (shōyu), and mirin. It is usually topped with thinly chopped scallions. Other common toppings include tempura, often prawn or kakiage (a type of mixed tempura fritter), or aburaage, a type of deep-fried tofu pockets seasoned with sugar, mirin, and soy sauce.",
+					"ingredients":[
+						"noodle",
+						"soy-sauce",
+						"onion"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "jp19",
+					"name": "Yakiniku",
+					"picture": "yakiniku.jpg",
+					"description": "焼肉. A Japanese term which, in its broadest sense, refers to grilled meat dishes. Meat has been eaten in Japan since the Jōmon period. However, the rise of Buddhism made the eating of meat tabooed, and consequently some people have theorized that meat 'disappeared' from the table from the Middle Ages to the Edo period.",
+					"ingredients":[
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "jp20",
+					"name": "Yakitori",
+					"picture": "yakitori.jpg",
+					"description": "焼き鳥. A Japanese type of skewered chicken. The term 'yakitori' can also refer to skewered food in general. Kushiyaki (skewer grilled), is a formal term that encompasses both poultry and non-poultry items, skewered and grilled. Both yakitori and kushiyaki are used interchangeably in Japanese society.",
+					"ingredients":[
+						"chicken"
+					],
+					"contains":[
+						"meat"
+					]
+				}
+			]
+		},{
+			"country": "Mexico",
+			"flag": "mex.svg",
+			"dishes":[
+				{
+					"id": "mx01",
+					"name": "Birria",
+					"picture": "birria.jpg",
+					"description": "A spicy Jaliscan (Jalisciense) stew originally made with goat then sheep and later beef (carne de res), but never with pork. Birria is often served during festive periods, such as Christmas, New Year's Eve, Mother's Day, and birthday parties.",
+					"ingredients":[
+						"meat",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "mx02",
+					"name": "Chapulines",
+					"picture": "chapulines.jpg",
+					"description": "Grasshoppers of the genus Sphenarium, that are commonly eaten in certain areas of Mexico. After being thoroughly cleaned and washed, they are toasted on a comal (clay cooking surface) with garlic, lime juice and salt containing extract of agave worms, lending a sour-spicy-salty taste to the finished product.",
+					"ingredients":[
+						"grasshopper",
+						"garlic",
+						"lime"
+					],
+					"contains":[
+						"insect"
+					]
+				},{
+					"id": "mx03",
+					"name": "Chilaquiles",
+					"picture": "chilaquiles.jpg",
+					"description": "A traditional Mexican dish. Typically, corn tortillas cut in quarters and lightly fried are the basis of the dish. Green or red salsa or mole is poured over the crisp tortilla triangles, called totopos.",
+					"ingredients":[
+						"tortilla",
+						"chicken",
+						"cheese",
+						"bean",
+						"onion",
+						"avocado"
+					],
+					"contains":[
+						"meat",
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "mx04",
+					"name": "Cochinita pibil",
+					"picture": "cochinita-pibil.jpg",
+					"description": "A traditional Mexican slow-roasted pork dish from the Yucatán Península of Mayan origin. Preparation of traditional cochinita or puerco pibil involves marinating the meat in strongly acidic citrus juice, coloring it with annatto seed, and roasting the meat while it is wrapped in banana leaf.",
+					"ingredients":[
+						"pork",
+						"lime"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "mx05",
+					"name": "Enchilada",
+					"picture": "enchilada.jpg",
+					"description": "A corn tortilla rolled around a filling and covered with a chili pepper sauce. Enchiladas can be filled with a variety of ingredients, including meat, cheese, beans, potatoes, vegetables, seafood or combinations.",
+					"ingredients":[
+						"tortilla",
+						"meat",
+						"spicy"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "mx06",
+					"name": "Esquite",
+					"picture": "esquite.jpg",
+					"description": "A Mexican snack or antojito. Shops and market stalls selling corn also tend to sell Esquites. The word esquites comes from the Nahuatl word ízquitl, which means 'toasted corn'.",
+					"ingredients":[
+						"corn",
+						"onion",
+						"lime",
+						"mayonnaise",
+						"cheese",
+						"spicy"
+					],
+					"contains":[
+						"dairy",
+						"spicy"
+					]
+				},{
+					"id": "mx07",
+					"name": "Guacamole",
+					"picture": "guacamole.jpg",
+					"description": "An avocado-based dip that originated with the Aztecs in Mexico. It is traditionally made by mashing ripe avocados and sea salt with a molcajete (mortar and pestle). Some recipes call for tomato, onion, garlic, lemon juice, chili, yogurt and/or additional seasonings.",
+					"ingredients":[
+						"avocado"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "mx08",
+					"name": "Huachinango",
+					"picture": "huachinango.jpg",
+					"description": "A classic fish dish from Veracruz, Mexico. The dish is a classic example of the cuisine of the southern coastal region of Eastern Mexico.",
+					"ingredients":[
+						"fish",
+						"onion",
+						"tomato",
+						"garlic",
+						"herbs",
+						"spicy"
+					],
+					"contains":[
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "mx09",
+					"name": "Mezcal",
+					"picture": "mezcal.jpg",
+					"description": "A distilled alcoholic beverage made from the maguey plant (a form of agave, Agave americana) native to Mexico. The word mezcal comes from Nahuatl mexcalli metl and ixcalli which means 'oven-cooked agave'.",
+					"ingredients":[
+						"agave"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "mx10",
+					"name": "Michelada",
+					"picture": "michelada.jpg",
+					"description": "A Mexican cerveza preparada made with beer, lime juice, and assorted sauces, spices, and peppers. It is served in a chilled, salt-rimmed glass. There are numerous variations of this beverage throughout Mexico and Latin America.",
+					"ingredients":[
+						"beer",
+						"lime",
+						"spicy"
+					],
+					"contains":[
+						"spicy"
+					]
+				},{
+					"id": "mx11",
+					"name": "Mole",
+					"picture": "mole.jpg",
+					"description": "The generic name for a number of sauces originally used in Mexican cuisine, as well as for dishes based on these sauces. Outside of Mexico, it often refers specifically to mole poblano.",
+					"ingredients":[
+						"spicy",
+						"garlic",
+						"tomato",
+						"herbs",
+						"cocoa"
+					],
+					"contains":[
+						"spicy"
+					]
+				},{
+					"id": "mx12",
+					"name": "Pozole",
+					"picture": "pozole.jpg",
+					"description": "A traditional pre-Columbian soup or stew from Mexico, which once had ritual significance. It is made from nixtamalized cacahuazintle maize, with meat, usually pork, chicken, turkey, pork rinds, chili peppers, and other seasonings and garnish.",
+					"ingredients":[
+						"corn",
+						"pork",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "mx13",
+					"name": "Pulque",
+					"picture": "pulque.jpg",
+					"description": "An alcoholic beverage made from the fermented sap of the maguey (agave) plant. It is traditional to central Mexico, where it has been produced for millennia. It has the color of milk, somewhat viscous consistency and a sour yeast-like taste. The drink’s history extends far back into the Mesoamerican period, when it was considered sacred, and its use was limited to certain classes of people.",
+					"ingredients":[
+						"agave"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "mx14",
+					"name": "Quesadilla",
+					"picture": "quesadilla.jpg",
+					"description": "A flour tortilla or a corn tortilla filled with a savoury mixture containing cheese, other ingredients, and/or vegetables, (often) then folded in half to form a half-moon shape.",
+					"ingredients":[
+						"tortilla",
+						"cheese",
+						"meat",
+						"bean",
+						"avocado",
+						"vegetables"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "mx15",
+					"name": "Sope",
+					"picture": "sope.jpg",
+					"description": "A traditional Mexican dish originating in the central and southern parts of Mexico, where it was sometimes first known as pellizcadas. It is an antojito which at first sight looks like an unusually thick tortilla with vegetables and meat toppings.",
+					"ingredients":[
+						"tortilla",
+						"meat",
+						"cheese",
+						"bean",
+						"onion",
+						"spicy"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy",
+						"spicy"
+					]
+				},{
+					"id": "mx16",
+					"name": "Taco",
+					"picture": "taco.jpg",
+					"description": "A traditional Mexican dish composed of a corn or wheat tortilla folded or rolled around a filling. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables and cheese, allowing for great versatility and variety.",
+					"ingredients":[
+						"tortilla",
+						"meat",
+						"vegetables",
+						"cheese",
+						"spicy"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy",
+						"spicy"
+					]
+				},{
+					"id": "mx17",
+					"name": "Tamal",
+					"picture": "tamal.jpg",
+					"description": "A traditional Mesoamerican dish made of masa (a starchy dough, usually corn-based), which is steamed or boiled in a leaf wrapper. amales can be filled with meats, cheeses, fruits, vegetables, chilies or any preparation according to taste, and both the filling and the cooking liquid may be seasoned.",
+					"ingredients":[
+						"corn",
+						"meat",
+						"cheese",
+						"vegetables",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"dairy",
+						"spicy"
+					]
+				},{
+					"id": "mx18",
+					"name": "Tequila",
+					"picture": "tequila.jpg",
+					"description": "A regional specific name for a distilled beverage made from the blue agave plant, primarily in the area surrounding the city of Tequila, 65 km (40 mi) northwest of Guadalajara, and in the highlands (Los Altos) of the north western Mexican state of Jalisco.",
+					"ingredients":[
+						"agave"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "mx19",
+					"name": "Tlayuda",
+					"picture": "tlayuda.jpg",
+					"description": "A handmade dish in traditional Mexican cuisine, consisting of a large, thin, crunchy, partially fried or toasted tortilla covered with a spread of refried beans, asiento (unrefined pork lard), lettuce or cabbage, avocado, meat (usually shredded chicken, beef tenderloin or pork), Oaxaca cheese, and salsa.",
+					"ingredients":[
+						"tortilla",
+						"bean",
+						"pork",
+						"meat",
+						"cheese",
+						"avocado"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy",
+						"spicy"
+					]
+				},{
+					"id": "mx20",
+					"name": "Torta",
+					"picture": "torta.jpg",
+					"description": "A kind of sandwich, served on an oblong 15 cm firm, crusty white sandwich roll, called a bolillo, telera, birote, or pan francés, depending on the region. Tortas can be eaten cold or hot, grilled or toasted in a press in the same manner as a cuban sandwich or panini.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"avocado",
+						"tomato",
+						"onion",
+						"spicy"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"spicy"
+					]
+				}
+			]
+		},{
+			"country": "Singapore",
+			"flag": "sgp.svg",
+			"dishes":[
+				{
+					"id": "sg01",
+					"name": "Bak kut teh",
+					"picture": "bak-kut-teh.jpg",
+					"description": "A Chinese soup popularly served in Malaysia, Singapore,(where there is a predominant Hoklo and Teochew community) and also, neighbouring areas like Riau Islands and Southern Thailand. The name literally translates as 'meat bone tea', and at its simplest, consists of meaty pork ribs simmered in a complex broth of herbs and spices (including star anise, cinnamon, cloves, dang gui, fennel seeds and garlic) for hours",
+					"ingredients":[
+						"pork",
+						"garlic",
+						"cinnamon",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "sg02",
+					"name": "Black pepper crab",
+					"picture": "black-pepper-crab.jpg",
+					"description": "One of the two most popular ways that crab is served in Singapore. It is made with hard-shell crabs, and fried with black pepper. Unlike the other popular chilli crab dish, it is less heavy due to the absence of a sauce.",
+					"ingredients":[
+						"crab",
+						"black-pepper"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "sg03",
+					"name": "Chai tow kway",
+					"picture": "carrot-cake.jpg",
+					"description": "A common dish or dim sum of Teochew cuisine in Chaoshan (China), Singapore and Malaysia, consisting of stir-fried cubes of radish cake. It is also known as carrot cake.",
+					"ingredients":[
+						"flour",
+						"radish"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "sg04",
+					"name": "Char kway teow",
+					"picture": "char-kway-teow.jpg",
+					"description": "A popular noodle dish in Malaysia, Singapore, Brunei and Indonesia. The dish is considered a national favourite in Malaysia and Singapore. It is made from flat rice noodles (河粉 hé fěn in Chinese) of approximately 1 cm or (in the north of Malaysia) about 0.5 cm in width, stir-fried over very high heat with light and dark soy sauce, chilli, a small quantity of belachan, whole prawns, deshelled cockles, bean sprouts and chopped Chinese chives. The dish is commonly stir-fried with egg, slices of Chinese sausage and fishcake, and less commonly with other ingredients.",
+					"ingredients":[
+						"noodle",
+						"soy-sauce",
+						"soy-sprout",
+						"shrimp",
+						"clam",
+						"spicy"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "sg05",
+					"name": "Chicken rice",
+					"picture": "chicken-rice.jpg",
+					"description": "A dish adapted from early Chinese immigrants originally from the Hainan province in southern China. It is considered one of the national dishes of Singapore.",
+					"ingredients":[
+						"chicken",
+						"rice"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "sg06",
+					"name": "Chilli crab",
+					"picture": "chilli-crab.jpg",
+					"description": "A seafood dish popular in Singapore. Mud crabs are commonly used and are stir-fried in a semi-thick, sweet and savoury tomato and chilli based sauce. Despite its name, chilli crab is not a very spicy dish.",
+					"ingredients":[
+						"crab",
+						"tomato",
+						"spicy"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "sg07",
+					"name": "Duck rice",
+					"picture": "duck-rice.jpg",
+					"description": "A Singaporean Chinese meat dish, made of either braised or roasted duck and plain white rice.",
+					"ingredients":[
+						"duck",
+						"rice"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "sg08",
+					"name": "Fish head curry",
+					"picture": "fish-head-curry.jpg",
+					"description": "A dish in Malaysian and Singaporean cuisine with Chinese and Indian origins and also popular in Nepal. The head of a red snapper is semi-stewed in a Kerala-style curry with assorted vegetables such as okra and eggplants. It is usually served with either rice or bread, or as a shared dish.",
+					"ingredients":[
+						"fish",
+						"vegetables",
+						"okra",
+						"eggplant"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "sg09",
+					"name": "Fish soup bee hoon",
+					"picture": "fish-soup-bee-hoon.jpg",
+					"description": "A Singaporean soup-based seafood dish, served hot usually with bee hoon. The dish is viewed as a healthy food in Singapore.",
+					"ingredients":[
+						"fish",
+						"noodle",
+						"cassava",
+						"milk"
+					],
+					"contains":[
+						"seafood",
+						"dairy"
+					]
+				},{
+					"id": "sg10",
+					"name": "Hokkien mee",
+					"picture": "hokkien-mee.jpg",
+					"description": "A dish in Malaysian and Singaporean cuisine that has its origins in the cuisine of China's Fujian (Hokkien) province. In its most common form, the dish consists of egg noodles and rice noodles stir-fried with egg, slices of pork, prawns and squid, and served and garnished with vegetables, small pieces of lard, sambal sauce and lime (for adding the lime juice to the dish).",
+					"ingredients":[
+						"noodle",
+						"egg",
+						"pork",
+						"shrimp"
+					],
+					"contains":[
+						"egg",
+						"pork",
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "sg11",
+					"name": "Ice kacang",
+					"picture": "ice-kacang.jpg",
+					"description": "A Malaysian dessert which is also common in Singapore and Brunei. Traditionally, an ice shaving machine is used to churn out the shaved ice used in the dessert, originally hand cranked but now more often motorized. Many Southeast Asian coffee shops, hawker centres, and food courts offer this dessert.",
+					"ingredients":[
+						"bean",
+						"corn",
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "sg12",
+					"name": "Kaya toast",
+					"picture": "kaya-toast.jpg",
+					"description": "A well-known snack in Singapore and Malaysia. Kaya toast is prepared with kaya (coconut jam), a topping of sugar, coconut milk and eggs, pandan, and sometimes margarine or butter. It is generally served on toast, and also sometimes on crackers. It is considered a breakfast staple, and remains popular in Singapore. The dish is sometimes dipped into soft-boiled egg.",
+					"ingredients":[
+						"bread",
+						"coconut",
+						"sugar",
+						"egg"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "sg13",
+					"name": "Laksa",
+					"picture": "laksa.jpg",
+					"description": "A popular spicy noodle soup from the Peranakan cuisine, which is a combination of Chinese and Malay cuisine. Katong laksa is a variant of laksa lemak from the Katong area of Singapore. In Katong laksa, the noodles are normally cut up into smaller pieces so that the entire dish can be eaten with a spoon alone, without chopsticks or a fork. Katong laksa is a strong contender for the heavily competed title of Singapore's national dish.",
+					"ingredients":[
+						"noodle",
+						"coconut",
+						"shrimp",
+						"spicy"
+					],
+					"contains":[
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "sg14",
+					"name": "Murtabak",
+					"picture": "murtabak.jpg",
+					"description": "A stuffed pancake or pan-fried bread which is commonly found in Saudi Arabia (especially the Tihamah and the Hejaz regions), Yemen, India, Indonesia, Malaysia, Singapore, Brunei and Thailand. Depending on the location, the name and ingredients can significantly vary. The name mutabbaq (or sometimes mutabbag) in Arabic means 'folded'.",
+					"ingredients":[
+						"dough",
+						"meat",
+						"onion",
+						"egg",
+						"herbs"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "sg15",
+					"name": "Nasi goreng",
+					"picture": "nasi-goreng.jpg",
+					"description": "Literally meaning 'fried rice' in Indonesian and Malay, it can refer simply to fried pre-cooked rice, a meal including stir fried rice in small amount of cooking oil or margarine, typically spiced with kecap manis (sweet soy sauce), shallot, garlic, tamarind and chilli and accompanied by other ingredients, particularly egg, chicken and prawns.",
+					"ingredients":[
+						"rice",
+						"soy-sauce",
+						"garlic",
+						"spicy",
+						"egg",
+						"chicken",
+						"shrimp",
+						"vegetables"
+					],
+					"contains":[
+						"egg",
+						"meat",
+						"spicy",
+						"seafood"
+					]
+				},{
+					"id": "sg16",
+					"name": "Nasi lemak",
+					"picture": "nasi-lemak.jpg",
+					"description": "a fragrant rice dish cooked in coconut milk and 'pandan' leaf commonly found in Malaysia, where it is considered the national dish. It also popular in neighboring country such as Brunei; Singapore; Riau Islands; and Southern Thailand.",
+					"ingredients":[
+						"rice",
+						"coconut",
+						"egg",
+						"lamb",
+						"peanut",
+						"spicy"
+					],
+					"contains":[
+						"egg",
+						"meat",
+						"spicy",
+						"nuts"
+					]
+				},{
+					"id": "sg17",
+					"name": "Roti prata",
+					"picture": "roti-prata.jpg",
+					"description": "A fried flour-based pancake that is cooked over a flat grill. It is usually served with a vegetable or meat based curry and is from Malaysia and Singapore. Prata is also commonly cooked (upon request) with cheese, onion, banana, red bean, chocolate, mushroom or egg.",
+					"ingredients":[
+						"flour",
+						"cheese",
+						"meat",
+						"onion",
+						"vegetables"
+					],
+					"contains":[
+						"dairy",
+						"meat"
+					]
+				},{
+					"id": "sg18",
+					"name": "Satay",
+					"picture": "satay.jpg",
+					"description": "A dish of seasoned, skewered and grilled meat, served with a sauce. Satay may consist of diced or sliced chicken, goat, mutton, beef, pork, fish, other meats, or tofu; the more authentic version uses skewers from the midrib of the coconut palm frond, although bamboo skewers are often used. These are grilled or barbecued over a wood or charcoal fire, then served with various spicy seasonings.",
+					"ingredients":[
+						"meat",
+						"peanut"
+					],
+					"contains":[
+						"meat",
+						"nuts"
+					]
+				},{
+					"id": "sg19",
+					"name": "Singapore Sling",
+					"picture": "singapore-sling.jpg",
+					"description": "A South-East Asian cocktail. This long drink was developed sometime before 1915 by Ngiam Tong Boon, a Hainanese bartender working at the Long Bar in Raffles Hotel Singapore. It was initially called the gin sling, - a sling was originally an American drink composed of spirit and water, sweetened and flavored.",
+					"ingredients":[
+						"gin",
+						"grenadine",
+						"pineapple",
+						"lime"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "sg20",
+					"name": "Wonton noodles",
+					"picture": "wonton.jpg",
+					"description": "Singapore wonton noodles includes noodles, leafy vegetables (preferably cai-xin), Barbecued Pork (char siu) and bite-sized dumplings or wonton. It is either served dry or in soup form with the former being more popular. If served dry, the wontons will be served in a separate bowl of soup. Shui jiao or prawn dumplings are served at some stalls and the original Hong Kong version is available at Cantonese restaurants and noodle joints.",
+					"ingredients":[
+						"noodle",
+						"vegetables",
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				}
+			]
+		},{
+			"country": "South Korea",
+			"flag": "kor.svg",
+			"dishes":[
+				{
+					"id": "kr01",
+					"name": "Bibimbap",
+					"picture": "bibimbap.jpg",
+					"description": "비빔밥. A signature Korean dish. The word literally means 'mixed rice'. Bibimbap is served as a bowl of warm white rice topped with namul (sautéed and seasoned vegetables) and gochujang (chili pepper paste), soy sauce, or doenjang. A raw or fried egg and sliced meat (usually beef) are common additions. The ingredients are stirred together thoroughly just before eating",
+					"ingredients":[
+						"rice",
+						"vegetables",
+						"spicy",
+						"soy-sauce",
+						"egg",
+						"meat"
+					],
+					"contains":[
+						"egg",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "kr02",
+					"name": "Bulgogi",
+					"picture": "bulgogi.jpg",
+					"description": "불고기. A Korean dish that usually consists of grilled marinated beef. Bulgogi is made from thin slices of sirloin or other prime cuts of beef. Before cooking, the meat is marinated to enhance its flavour and tenderness with a mixture of soy sauce, sugar, sesame oil, garlic, pepper and other ingredients such as scallions, ginger, onions or mushrooms, especially white button mushrooms or matsutake.",
+					"ingredients":[
+						"meat",
+						"soy-sauce",
+						"garlic",
+						"sugar",
+						"onion"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "kr03",
+					"name": "Galbi",
+					"picture": "galbi.jpg",
+					"description": "갈비. Refers to a variety of gui or grilled dishes in Korean cuisine that are made with marinated beef (or pork) short ribs in a ganjang-based sauce (Korean soy sauce).",
+					"ingredients":[
+						"meat",
+						"soy-sauce"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "kr04",
+					"name": "Hoe",
+					"picture": "hoe.jpg",
+					"description": "회. may refer to various raw food dishes in Korean cuisine. Saengseon hoe (생선회) or 'Hwal-eo hoe' (활어회) is thinly sliced raw fish or other raw seafood (similar to Japanese sashimi); yukhoe (육회) is hoe made with raw beef and seasoned with soy sauce, sesame oil, and rice wine; and gan hoe (간회) is raw beef liver with a sauce of sesame oil and salt.",
+					"ingredients":[
+						"fish"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "kr05",
+					"name": "Hoppang",
+					"picture": "hoppang.jpg",
+					"description": "호빵. A warm snack sold throughout Korea. It is a pre-cooked ball of rice flour filled with something such as red bean paste, similar to Chinese dòushābāo.",
+					"ingredients":[
+						"rice"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "kr06",
+					"name": "Jajangmyeon",
+					"picture": "jajangmyeon.jpg",
+					"description": "자장면. A noodle dish topped with a thick sauce made of chunjang (a salty black soybean paste), diced pork and vegetables, and sometimes also seafood.",
+					"ingredients":[
+						"noodle",
+						"pork",
+						"vegetables"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "kr07",
+					"name": "Japchae",
+					"picture": "japchae.jpg",
+					"description": "잡채. A Korean dish made from sweet potato noodles (called dangmyeon, Korean: 당면), stir fried in sesame oil with vegetables (typically thinly sliced carrots, onion, spinach, and mushrooms), sometimes served with beef, and flavoured with soy sauce, and sweetened with sugar. It is usually served garnished with sesame seeds and slivers of chili.",
+					"ingredients":[
+						"noodle",
+						"vegetables",
+						"onion",
+						"mushroom",
+						"meat",
+						"soy-sauce"
+					],
+					"contains":[
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "kr08",
+					"name": "Kalguksu",
+					"picture": "kalguksu.jpg",
+					"description": "칼국수. A Korean noodle dish consisting of handmade, knife-cut wheat flour noodles served in a large bowl with broth and other ingredients. It is traditionally considered a seasonal food, consumed most often in summer. Its name comes from the fact that the noodles are not extruded or spun, but cut.",
+					"ingredients":[
+						"noodle",
+						"vegetables",
+						"potato",
+						"onion"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "kr09",
+					"name": "Kimchi",
+					"picture": "kimchi.jpg",
+					"description": "김치. A traditional fermented Korean side dish made of vegetables with a variety of seasonings. It is often described as spicy and sour. In traditional preparation kimchi is often allowed to ferment underground in jars for months. There are hundreds of varieties of kimchi made from napa cabbage, radish, scallion, or cucumber as a main ingredient.",
+					"ingredients":[
+						"vegetables",
+						"herbs",
+						"spicy"
+					],
+					"contains":[
+						"spicy"
+					]
+				},{
+					"id": "kr10",
+					"name": "Kimchi jjigae",
+					"picture": "kimchi-jjigae.jpg",
+					"description": "김치찌개. A variety of jjigae, or stew-like Korean dish, made with kimchi and other ingredients, such as scallions, onions, diced tofu, pork, and seafood, although pork and seafood are generally not used in the same recipe. It is one of the most common jjigae in Korea.",
+					"ingredients":[
+						"vegetables",
+						"herbs",
+						"spicy",
+						"onion",
+						"tofu",
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "kr11",
+					"name": "Makgeolli",
+					"picture": "makgeolli.jpg",
+					"description": "막걸리. An alcoholic beverage native to Korea. It is made from rice or wheat mixed with nuruk, a Korean fermentation starter. It has a milky, off-white color and sweetness, and is about 6–8% alcohol by volume. Makgeolli is traditionally made from rice, although variations are made from wheat, and some brands are flavored with corn, chestnut, apple or other produce.",
+					"ingredients":[
+						"rice",
+						"wheat"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "kr12",
+					"name": "Miyeok guk",
+					"picture": "miyeok-guk.jpg",
+					"description": "미역국. A Korean soup made from the sea vegetable known as wakame or 'sea mustard' in English. It comprises two words: miyeok, the Korean word for wakame; and guk, meaning 'soup'. Miyeok guk is typically consumed by women after giving birth as wakame contains a high content of calcium and iodine, nutrients that are important for nursing mothers.",
+					"ingredients":[
+						"seaweed"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "kr13",
+					"name": "Naengmyeon",
+					"picture": "naengmyeon.jpg",
+					"description": "냉면. A Korean noodle dish of long and thin handmade noodles made from the flour and starch of various ingredients: buckwheat (메밀, memil), potatoes, sweet potatoes, 칡냉면, naengmyun made with the starch from arrowroot (darker color and chewier than buckwheat noodles), and kudzu (칡, chik). Varieties with ingredients such as seaweed and green tea are available.",
+					"ingredients":[
+						"noodle",
+						"flour",
+						"wheat",
+						"potato"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "kr14",
+					"name": "Pajeon",
+					"picture": "pajeon.jpg",
+					"description": "파전. A variety of jeon with green onions as its prominent ingredient, as pa literally means 'green/spring onion' in Korean. It is a pancake-like Korean dish made from a batter of eggs, wheat flour, rice flour, green onions, and often other additional ingredients depending on the variety. Beef, pork, kimchi, shellfish, and other seafood are mostly used.",
+					"ingredients":[
+						"egg",
+						"rice",
+						"wheat",
+						"onion"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "kr15",
+					"name": "Patbingsu",
+					"picture": "patbingsu.jpg",
+					"description": "팥빙수. A Korean shaved ice dessert with sweet toppings such as chopped fruit, condensed milk, fruit syrup, and red bean paste. The snack is highly popular in South Korea.",
+					"ingredients":[
+						"bean",
+						"milk"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "kr16",
+					"name": "Samgyeopsal",
+					"picture": "samgyeopsal.jpg",
+					"description": "삼겹살. A popular Korean dish that is commonly served as an evening meal. It consists of thick, fatty slices of pork belly meat. The meat, usually neither marinated nor seasoned, is cooked on a grill at the diners’ table.",
+					"ingredients":[
+						"pork"
+					],
+					"contains":[
+						"meat",
+						"pork"
+					]
+				},{
+					"id": "kr17",
+					"name": "Samgyetang",
+					"picture": "samgyetang.jpg",
+					"description": "삼계탕. A variety of guk Korean soup, which primarily consists of a whole young chicken and Korean ginseng. The dish's name literally translates as 'ginseng chicken soup' in English. Samgyetang is traditionally served in the summer for its supposed nutrients, which replaces those lost through excessive sweating and physical exertion during the hot summers in Korea.",
+					"ingredients":[
+						"chicken",
+						"ginger"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "kr18",
+					"name": "Tteokbokki",
+					"picture": "tteokbokki.jpg",
+					"description": "떡볶이. A popular Korean snack food made from soft rice cake, fish cake and sweet red chili sauce. It is commonly purchased from street vendors or pojangmacha. Originally it was called tteok jjim (떡찜) and was a savory braised dish of sliced rice cake, meat, eggs, and seasoning.",
+					"ingredients":[
+						"rice",
+						"fish",
+						"spicy"
+					],
+					"contains":[
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "kr19",
+					"name": "Soju",
+					"picture": "soju.jpg",
+					"description": "소주. A distilled beverage containing ethanol and water. Jinro and Lotte soju are the first and third top selling alcohol brands in the world. It is usually consumed neat. Most brands of soju are made in South Korea. It is traditionally made from rice, wheat, or barley, but modern producers of soju use supplements or even replace rice with other starches, such as potatoes, sweet potatoes, or tapioca.",
+					"ingredients":[
+						"rice",
+						"gin"
+					],
+					"contains":[
+						"alcohol"
+					]
+				},{
+					"id": "kr20",
+					"name": "Sundubu jjigae",
+					"picture": "sundubu-jjigae.jpg",
+					"description": "순두부찌개. A hot and spicy jjigae (Korean stew) dish made with uncurdled dubu (tofu), seafood (oysters, mussels, clams and shrimp are common ingredients), vegetables, mushrooms, onion, scallions, and gochujang or gochu garu (chili powder) in Korean cuisine.",
+					"ingredients":[
+						"spicy",
+						"tofu",
+						"mussel",
+						"clam",
+						"shrimp",
+						"vegetables",
+						"mushroom",
+						"onion"
+					],
+					"contains":[
+						"spicy",
+						"seafood"
+					]
+				}
+			]
+		},{
+			"country": "Spain",
+			"flag": "esp.svg",
+			"dishes":[
+				{
+					"id": "es01",
+					"name": "Arroz a la cubana",
+					"picture": "arroz-cubana.jpg",
+					"description": "A dish eaten in many Spanish-speaking countries. Its defining ingredients are rice and a fried egg. A plantain or banana, and tomato sauce, are so frequently used as often to be considered defining ingredients.",
+					"ingredients":[
+						"rice",
+						"egg",
+						"tomato",
+						"banana"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "es04",
+					"name": "Chorizo",
+					"picture": "chorizo.jpg",
+					"description": "A term originating in the Iberian Peninsula encompassing several types of pork sausages. Traditionally, chorizo is encased in natural casings made from intestines, a method used since Roman times.",
+					"ingredients":[
+						"pork",
+						"pepper"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "es05",
+					"name": "Churro",
+					"picture": "churro.jpg",
+					"description": "Sometimes referred to as a Spanish doughnut, is a fried-dough pastry—predominantly choux—based snack.",
+					"ingredients":[
+						"flour",
+						"sugar"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "es06",
+					"name": "Cocido Montañés",
+					"picture": "cocido-montanes.jpg",
+					"description": "A rich hearty bean stew, originally from and most commonly found in the autonomous community of Cantabria in northern Spain.",
+					"ingredients":[
+						"white-bean",
+						"pork",
+						"cabbage"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "es08",
+					"name": "Escalivada",
+					"picture": "escalivada.jpg",
+					"description": "A traditional Catalan dish of smoky grilled vegetables. It typically consists of roasted eggplant and bell peppers with olive oil, and sometimes onion, tomato, minced garlic, and salt.",
+					"ingredients":[
+						"eggplant",
+						"pepper",
+						"onion",
+						"tomato",
+						"garlic"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "es09",
+					"name": "Escudella",
+					"picture": "escudella.jpg",
+					"description": "A traditional Catalan soup and stew. It is as well the first referenced soup in Europe; Francesc Eiximenis wrote in the 14th century that it was eaten every day by Catalan people.",
+					"ingredients":[
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "es10",
+					"name": "Fabada",
+					"picture": "fabada.jpg",
+					"description": "A rich Spanish bean stew, originally from and most commonly found in Asturias, but widely available throughout the whole of Spain.",
+					"ingredients":[
+						"white-bean",
+						"pork",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "es11",
+					"name": "Gazpacho",
+					"picture": "gazpacho.jpg",
+					"description": "A soup made of raw vegetables and served cold, usually with a tomato base, originating in the southern Spanish region of Andalusia.",
+					"ingredients":[
+						"tomato",
+						"garlic"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "es12",
+					"name": "Hornazo",
+					"picture": "hornazo.jpg",
+					"description": "A Spanish meat pie eaten in the provinces of Salamanca and Ávila. It is made with flour and yeast and stuffed with pork loin, spicy chorizo sausage and hard-boiled eggs.",
+					"ingredients":[
+						"bread",
+						"pork",
+						"egg"
+					],
+					"contains":[
+						"gluten",
+						"pork",
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "es13",
+					"name": "Jamón",
+					"picture": "jamon.jpg",
+					"description": "Dry-cured ham from Spain. There are two primary types of jamón: jamón serrano (meaning ham from the sierra or mountains) and jamón ibérico (ham from the Black Iberian pig).",
+					"ingredients":[
+						"ham"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "es14",
+					"name": "Lechazo",
+					"picture": "lechazo.jpg",
+					"description": "A Spanish dish made from 'cordero lechal'. The meat used is from unweaned lambs, and is similar to veal, or the meat of 'cochinillo', Spanish suckling pigs.",
+					"ingredients":[
+						"lamb"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "es15",
+					"name": "Leche frita",
+					"picture": "leche-frita.jpg",
+					"description": "A Spanish sweet typical of the north of Spain. It is made by cooking flour with milk and sugar until it thickens to a firm dough which is then portioned, fried and served with a sugar glaze and cinnamon powder.",
+					"ingredients":[
+						"milk",
+						"flour",
+						"sugar",
+						"cinnamon"
+					],
+					"contains":[
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "es18",
+					"name": "Morcilla",
+					"picture": "morcilla.jpg",
+					"description": "Spanish morcilla has many variants. The most well-known and widespread is morcilla de Burgos which contains mainly pork blood and fat, rice, onions, and salt.",
+					"ingredients":[
+						"pork",
+						"rice",
+						"onion"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "es19",
+					"name": "Paella",
+					"picture": "paella.jpg",
+					"description": "A Valencian rice dish that originated in its modern form in the mid-nineteenth century near Albufera lagoon. Many non-Spaniards view paella as Spain's national dish, but most Spaniards consider it to be a regional Valencian dish.",
+					"ingredients":[
+						"rice",
+						"chicken",
+						"rabbit",
+						"vegetables",
+						"shrimp",
+						"mussel"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "es20",
+					"name": "Patatas bravas",
+					"picture": "patatas-bravas.jpg",
+					"description": "A dish native to Spain, often served as a tapa in bars. It typically consists of white potatoes that have been cut into irregular shapes of about 2 centimeters, then fried in oil and served warm with a sauce such as a spicy tomato sauce or an aioli.",
+					"ingredients":[
+						"potato",
+						"tomato",
+						"garlic",
+						"spicy"
+					],
+					"contains":[
+						"spicy"
+					]
+				},{
+					"id": "es22",
+					"name": "Polbo á feira",
+					"picture": "polbo.jpg",
+					"description": "A traditional Spanish Galician dish consisting of octopus.",
+					"ingredients":[
+						"octopus",
+						"pepper"
+					],
+					"contains":[
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "es23",
+					"name": "Sopa de ajo",
+					"picture": "sopa-ajo.jpg",
+					"description": "A traditional garlic soup made with egg poached in chicken broth and laced with sherry and garlic.",
+					"ingredients":[
+						"egg",
+						"garlic"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "es24",
+					"name": "Tapas",
+					"picture": "tapas.jpg",
+					"description": "A wide variety of appetizers, or snacks, in Spanish cuisine. They may be cold (such as mixed olives and cheese) or hot (such as chopitos, which are battered, fried baby squids). In select bars in Spain, tapas have evolved into an entire, and sometimes sophisticated, cuisine.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"cheese",
+						"vegetables",
+						"octopus"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "es25",
+					"name": "Tombet",
+					"picture": "tombet.jpg",
+					"description": "A traditional vegetable dish from Majorca. It is available at almost every local restaurant on the island.",
+					"ingredients":[
+						"potato",
+						"eggplant",
+						"pepper"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "es26",
+					"name": "Tortilla",
+					"picture": "tortilla.jpg",
+					"description": "A typical Spanish dish consisting of an egg omelette made with added potatoes and fried in vegetable oil.",
+					"ingredients":[
+						"egg",
+						"potato",
+						"onion"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "es27",
+					"name": "Turrón",
+					"picture": "turron.jpg",
+					"description": "A confection, typically made of honey, sugar, and egg white, with toasted almonds or other nuts, and usually shaped into either a rectangular tablet or a round cake.",
+					"ingredients":[
+						"egg",
+						"honey",
+						"sugar",
+						"almond"
+					],
+					"contains":[
+						"egg",
+						"nuts"
+					]
+				}
+			]
+		},{
+			"country": "Taiwan",
+			"flag": "twn.svg",
+			"dishes":[
+				{
+					"id": "tw01",
+					"name": "A-gei",
+					"picture": "a-gei.jpg",
+					"description": "淡水阿給. a speciality food originating from Tamsui District of New Taipei City and consists of a piece of fried tofu, stuffed with cooked Cellophane noodles, and sealed with surimi, which is widely sold by vendors in the district. The name a-gei was derived from aburaage (aburaage (油揚げ), age (あげ)), a fried and stewed Japanese tofu packet from which the a-gei is made.",
+					"ingredients":[
+						"tofu",
+						"noodle"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "tw02",
+					"name": "Baobing",
+					"picture": "baobing.jpg",
+					"description": "刨冰. A Chinese shaved ice dessert very common in China, Taiwan, Malaysia, and Vietnam. It is especially popular during the summer. Baobing was eaten in China as early as the seventh century A.D.",
+					"ingredients":[
+						"fruits",
+						"milk"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "tw03",
+					"name": "Ba-wan",
+					"picture": "ba-wan.jpg",
+					"description": "肉圓. A Taiwanese snack food, consisting of a 6–8 cm diameter disk-shaped translucent dough filled with a savory stuffing and served with a sweet and savory sauce. The stuffing varies widely according to different regions in Taiwan, but usually consists of a mixture of pork, bamboo shoots, and shiitake mushrooms.",
+					"ingredients":[
+						"dough",
+						"pork",
+						"bamboo",
+						"mushroom"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "tw04",
+					"name": "Beef noodle",
+					"picture": "beef-noodle.jpg",
+					"description": "牛肉麵. A Chinese noodle soup made of stewed or red braised beef, beef broth, vegetables and Chinese noodles. It exists in various forms throughout East Asia and Southeast Asia. Stewed beef noodle soup was first created by the Hui people (a Chinese Muslim ethnic group) during the Tang Dynasty of China. The red braised beef noodle soup was invented by the veterans in Kaoshiung, Taiwan who fled from mainland China during the Chinese civil war.",
+					"ingredients":[
+						"noodle",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "tw05",
+					"name": "Bubble tea",
+					"picture": "bubble-tea.jpg",
+					"description": "珍珠奶茶. A Taiwanese tea-based drink invented in Taichung, Taiwan, during the 1980s. The term 'bubble' is an Anglicized imitative form derived from the Chinese bōbà (波霸), meaning 'large', slang for the large, chewy tapioca balls commonly added to the drink. These are (粉圓, fěnyuán), also called 'pearls' (珍珠, zhēnzhū). Most bubble tea recipes contain a tea base mixed with fruit or milk.",
+					"ingredients":[
+						"cassava",
+						"tea",
+						"milk",
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "tw06",
+					"name": "Dan zai noodles",
+					"picture": "dan-zai.jpg",
+					"description": "擔仔麵. One of the best known snacks in Tainan, Taiwan. It originated in Tainan, (in southern Taiwan) about 130 years ago. While the general recipe is well known, some of the spices and the proportions of the various ingredients (shrimp flavored soup, shrimp, coriander, and garlic) are well guarded secrets by the different restaurants/stands that serve it.",
+					"ingredients":[
+						"noodle",
+						"shrimp",
+						"garlic",
+						"herbs"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "tw07",
+					"name": "Gua bao",
+					"picture": "gua-bao.jpg",
+					"description": "割包. A flat, clam-shaped steamed white bread bun with soy sauce braised fatty pork, pickled mustard vegetables, peanut powder, sugar, and cilantro inside. Known as the Taiwanese hamburger.",
+					"ingredients":[
+						"bread",
+						"soy-sauce",
+						"pork",
+						"vegetables",
+						"peanut"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"nuts"
+					]
+				},{
+					"id": "tw08",
+					"name": "Iron egg",
+					"picture": "iron-egg.jpg",
+					"description": "鐵蛋. A speciality egg-based dish from Taiwan. They are considered a delicacy and originated in the Tamsui District of New Taipei City. ",
+					"ingredients":[
+						"egg",
+						"soy-sauce"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "tw09",
+					"name": "Minced pork rice",
+					"picture": "minced-pork-rice.jpg",
+					"description": "滷肉飯. A Chinese-style rice dish commonly seen throughout Taiwan and southern Fujian province. The flavor may vary from one region to another, but the basic ingredients remain the same: ground pork marinated and boiled in soy sauce served on top of steamed rice.",
+					"ingredients":[
+						"rice",
+						"pork",
+						"soy-sauce"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "tw10",
+					"name": "Oyster omelette",
+					"picture": "oyster-omelette.jpg",
+					"description": "蚵仔煎. A Chinese dish that is widely known in Taiwan, Fujian, and many parts of Asia for its savory taste. Oyster Omelette is often sold in night markets, and has constantly been ranked by many foreigners as the top cuisine from Taiwan.",
+					"ingredients":[
+						"oyster",
+						"egg"
+					],
+					"contains":[
+						"seafood",
+						"egg"
+					]
+				},{
+					"id": "tw20",
+					"name": "Oyster vermicelli",
+					"picture": "oyster-vermicelli.jpg",
+					"description": "蚵仔麵線. A kind of noodle soup that is popular in Taiwan. Its main ingredients are oysters and misua (Taiwanese vermicelli). One of the famous places serving this is in Dihua Street, Dadaocheng, Taipei.",
+					"ingredients":[
+						"noodle",
+						"oyster"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "tw11",
+					"name": "Pig's blood cake",
+					"picture": "pig-blood-cake.jpg",
+					"description": "豬血糕. A street food delicacy served on a stick from market stalls in Taiwan. It is made with pork blood, sticky rice and soy broth. It is fried or steamed and coated in peanut flour. It is eaten as a snack.",
+					"ingredients":[
+						"pork",
+						"rice",
+						"soy-sauce"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "tw19",
+					"name": "Popcorn chicken",
+					"picture": "popcorn-chicken.jpg",
+					"description": "鹽酥雞. A dish in Taiwanese cuisine and it is indispensable to the night markets in Taiwan. Although it is called fried chicken, it tastes different from western style fried chicken and is usually sold on the street.",
+					"ingredients":[
+						"chicken",
+						"herbs",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "tw12",
+					"name": "Popiah",
+					"picture": "popiah.jpg",
+					"description": "薄餅. A Fujian/Chaozhou-style fresh spring roll common in Taiwan, Singapore, Malaysia and Thailand. Popiah is often eaten in the Fujian province of China (usually in Xiamen) and its neighbouring Chaoshan on the Qingming Festival.",
+					"ingredients":[
+						"soy-sprout",
+						"bean",
+						"cabbage",
+						"carrot",
+						"pork",
+						"tofu",
+						"peanut",
+						"egg"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"egg",
+						"nuts"
+					]
+				},{
+					"id": "tw13",
+					"name": "Pork ball",
+					"picture": "pork-ball.jpg",
+					"description": "貢丸. A Chinese meatball made from finely minced pork, starch, and sometimes cuttlefish to impart a 'bouncy' texture and added flavour. They are particularly popular in the Taiwanese city of Hsinchu, where an annual festival is dedicated to them.",
+					"ingredients":[
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "tw14",
+					"name": "Scallion pancake",
+					"picture": "scallion-pancake.jpg",
+					"description": "葱油饼. A savory, non-leavened flatbread folded with oil and minced scallions (green onions). It originates in Chinese culture. Unlike a true pancake, it is made from dough instead of batter. Variations exist on the basic method of preparation that incorporate other flavors and fillings.",
+					"ingredients":[
+						"dough",
+						"onion"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "tw15",
+					"name": "Spicy hot pot",
+					"picture": "spicy-hot-pot.jpg",
+					"description": "麻辣鍋. It is becoming more and more popular, especially in Taipei. The soup of this hotpot includes lots of Chinese herbs and other special materials. People can cook what they want with this soup. The taste is very spicy, but this kind of hotpot can help you keep warm and feel good in the winter.",
+					"ingredients":[
+						"spicy",
+						"meat",
+						"shrimp",
+						"vegetables"
+					],
+					"contains":[
+						"meat",
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "tw16",
+					"name": "Stinky tofu",
+					"picture": "stinky-tofu.jpg",
+					"description": "臭豆腐. A form of fermented tofu that has a strong odour. It is a snack that is usually sold at night markets or roadside stands or as a side dish in lunch bars rather than in restaurants.",
+					"ingredients":[
+						"tofu"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "tw17",
+					"name": "Suncake",
+					"picture": "suncake.jpg",
+					"description": "太陽餅. A popular Taiwanese dessert originally from the city of Taichung in Taiwan. The typical fillings consist of maltose (condensed malt sugar), and they are usually sold in special gift boxes as souvenirs for visitors. Some famous suncake pastry shops always have long lines of people waiting to buy boxed suncakes.",
+					"ingredients":[
+						"sugar"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "tw18",
+					"name": "Taiwanese hot dog",
+					"picture": "taiwanese-hotdog.jpg",
+					"description": "大腸包小腸. A snack invented in Taiwan in the late 20th century. A segment of Taiwanese pork sausage is wrapped in a (slightly bigger and fatter) sticky rice sausage to make this delicacy, usually served chargrilled. It may be compared to a hot dog. Deluxe versions are available in night markets in Taiwan, with condiments such as pickled bokchoi, garlic, wasabi and thick soy sauce paste to complement the taste.",
+					"ingredients":[
+						"pork",
+						"rice",
+						"garlic",
+						"soy-sauce"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				}
+			]
+		},{
+			"country": "Thailand",
+			"flag": "tha.svg",
+			"dishes":[
+				{
+					"id": "th01",
+					"name": "Cha yen",
+					"picture": "cha-yen.jpg",
+					"description": "ชาเย็น. A drink made from strongly brewed black tea. This tea is sweetened with sugar and condensed milk and served chilled. Evaporated milk, coconut milk or whole milk is generally poured over the tea and ice before serving to add taste and creamy appearance.",
+					"ingredients":[
+						"tea",
+						"milk",
+						"sugar"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "th02",
+					"name": "Khao phat",
+					"picture": "khao-phat.jpg",
+					"description": "ข้าวผัด. A variety of fried rice typical of central Thai cuisine. In Thai, khao means 'rice' and phat means 'of or relating to being stir-fried'. This dish differs from Chinese fried rice is that it is prepared with Thai Jasmine rice instead of regular long-grain rice. It normally contains meat (chicken, shrimp, and crab are all common), egg, onions, garlic and sometimes tomatoes.",
+					"ingredients":[
+						"chicken",
+						"shrimp",
+						"crab",
+						"egg",
+						"onion",
+						"garlic",
+						"tomato"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "th03",
+					"name": "Kaeng kari",
+					"picture": "kaeng-kari.jpg",
+					"description": "แกงกะหรี่. One of three major kinds of Thai curry that are commonly found in Thai restaurants in the West. There are other curry types in Thai cuisine, several of which are yellow. Thai Yellow curry, outside Thailand, usually refers to the Thai-Muslim dish kaeng kari. This curry is richer and creamier than other Thai curries, since coconut cream is used in addition to coconut milk.",
+					"ingredients":[
+						"rice",
+						"chicken",
+						"fish",
+						"vegetables",
+						"coconut",
+						"herbs"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "th04",
+					"name": "Kaeng khiao wan",
+					"picture": "kaeng-khiao-wan.jpg",
+					"description": "แกงเขียวหวาน. A Central Thai variety of curry. The name 'green' curry derives from the color of the dish, which comes from green chillies. Apart from a main protein, traditionally fish, meat, or fish balls, the other ingredients for the dish consist of coconut milk, green curry paste, palm sugar, fish sauce. Thai eggplant (aubergine), pea aubergine, or other vegetables and even fruit are often included.",
+					"ingredients":[
+						"meat",
+						"fish",
+						"coconut",
+						"eggplant",
+						"vegetables",
+						"herbs"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "th05",
+					"name": "Kaeng phet",
+					"picture": "kaeng-phet.jpg",
+					"description": "แกงเผ็ด. A popular Thai dish consisting of curry paste to which coconut milk is added. The base is properly made with a mortar and pestle, and remains moist throughout the preparation process. The main ingredients are garlic, shallots, (dried) red chili peppers, galangal, shrimp paste, salt, kaffir lime peel, coriander root, coriander seeds, cumin seeds, peppercorns and lemongrass. Common additives are fish sauce, sugar, Thai eggplant, bamboo shoots, thai basil (bai horapha), and meat such as chicken, beef, pork, shrimp, frog, snake or duck.",
+					"ingredients":[
+						"meat",
+						"shrimp",
+						"coconut",
+						"garlic",
+						"herbs",
+						"eggplant",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "th06",
+					"name": "Kai yang",
+					"picture": "kai-yang.jpg",
+					"description": "ไก่ย่าง. A dish originating from the Lao people of Laos and Isan (Northeastern Thailand), but it is now commonly eaten throughout the whole of Thailand. The dish is a standard staple of street markets and readily available at all times.",
+					"ingredients":[
+						"chicken"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "th07",
+					"name": "Khanom chan",
+					"picture": "khanom-chan.jpg",
+					"description": "ขนมชั้น. One of the ancient Thai desserts, which Thai ancestors usually made for auspicious ceremonies. In Thai, the word 'Khanom' (ขนม) means dessert, 'Chan' (ชั้น) means layer. It is usually baked in the complete 9 layer form. The number nine itself has connotations of prosperity in Thai culture (in Thai, 'nine' also sounds like ‘progress’).",
+					"ingredients":[
+						"rice",
+						"cassava",
+						"flour",
+						"sugar",
+						"coconut"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "th08",
+					"name": "Khao soi",
+					"picture": "khao-soi.jpg",
+					"description": "ข้าวซอย. A Burmese-influenced dish served widely in northern Laos and northern Thailand. The name means 'cut rice' in Thai, although it is possible that it is simply a corruption of the Burmese word for noodles which is just 'khao swè' which may account for the variations. ",
+					"ingredients":[
+						"noodle",
+						"coconut",
+						"chicken"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "th09",
+					"name": "Krating Daeng",
+					"picture": "krating-daeng.jpg",
+					"description": "กระทิงแดง. A sweetened, non-carbonated energy drink developed by Chaleo Yoovidhya. The drink is mostly sold in Southeast Asia but can be found in Austria, Sweden, Denmark, Australia, Canada, New Zealand, and the United States where it is sometimes renamed 'Thai Red Bull'.",
+					"ingredients":[
+						"red-bull"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "th10",
+					"name": "Mi krop",
+					"picture": "mi-krop.jpg",
+					"description": "หมี่กรอบ. A Thai dish. The name literally means 'crisp noodles'. It is made with rice noodles and a sauce that is predominantly sweet but can be balanced with an acidic flavor, usually lemon or lime.",
+					"ingredients":[
+						"noodle",
+						"lime"
+					],
+					"contains":[
+						""
+					]
+				},{
+					"id": "th11",
+					"name": "Nam ngiao",
+					"picture": "nam-ngiao.jpg",
+					"description": "น้ำเงี้ยว. A noodle soup or curry of the cuisine of the Tai Yai people who live in the northeast of Burma and the southwest of Yunnan province, China. The dish has become famous through the northern Thai cuisine. Nam ngiao has a characteristic spicy and tangy flavor.",
+					"ingredients":[
+						"noodle",
+						"meat",
+						"pork",
+						"tomato",
+						"spicy"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "th12",
+					"name": "Nam tok",
+					"picture": "nam-tok.jpg",
+					"description": "น้ำตก. Either a soup or a meat salad. In the Thai language the phrase means waterfall. The meat salad is also part of Lao cuisine. In Central Thailand, nam tok is mainly a spicy soup stock enriched with raw cow blood or pig's blood. Blood is often used in Thailand to enrich regular noodle dishes.",
+					"ingredients":[
+						"noodle",
+						"pork",
+						"soy-sprout",
+						"vegetables",
+						"herbs"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "th13",
+					"name": "Phat si io",
+					"picture": "phat-si-io.jpg",
+					"description": "ผัดซีอิ๊ว. A Chinese-influenced stir fried noodle dish that is commonly eaten in Laos and Thailand.[1] It is also quite popular in Thai and Lao restaurants around the world. The name of the dish translates to 'fried (with) soy sauce' and it is very similar to the char kway teow of Singapore and Malaysia.",
+					"ingredients":[
+						"noodle",
+						"soy-sauce",
+						"garlic",
+						"egg",
+						"meat",
+						"vegetables"
+					],
+					"contains":[
+						"meat",
+						"egg"
+					]
+				},{
+					"id": "th14",
+					"name": "Phat Thai",
+					"picture": "phat-thai.jpg",
+					"description": "ผัดไทย. A stir-fried rice noodle dish commonly served as a street food and at casual local eateries in Thailand. It is made with soaked dried rice noodles, which are stir-fried with eggs and chopped firm tofu, and flavored with tamarind pulp, fish sauce, dried shrimp, garlic or shallots, red chili pepper and palm sugar, and served with lime wedges and often chopped roast peanuts.",
+					"ingredients":[
+						"noodle",
+						"egg",
+						"tofu",
+						"shrimp",
+						"garlic",
+						"spicy",
+						"lime",
+						"peanut"
+					],
+					"contains":[
+						"egg",
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "th15",
+					"name": "Rat na",
+					"picture": "rat-na.jpg",
+					"description": "ราดหน้า. A Thai-Chinese noodle dish. It is made with stir-fried wide rice noodles, a form of meat such as chicken, beef, pork, seafood or tofu, and/or garlic, straw mushrooms and kai-lan.",
+					"ingredients":[
+						"noodle",
+						"meat",
+						"fish",
+						"tofu",
+						"soy-sauce"
+					],
+					"contains":[
+						"meat",
+						"seafood"
+					]
+				},{
+					"id": "th16",
+					"name": "Sai ua",
+					"picture": "sai-ua.jpg",
+					"description": "ไส้อั่ว. A grilled pork sausage from northern Thailand and northeastern Burma. In Thailand it is one of the typical foods of the northernmost Mae Hong Son, Chiang Mai, and Chiang Rai Provinces and it has become very popular in the rest of Thailand as well.",
+					"ingredients":[
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat"
+					]
+				},{
+					"id": "th17",
+					"name": "Sangkhaya fak thong",
+					"picture": "sangkhaya-fak-thong.jpg",
+					"description": "สังขยาฟักทอง. A dessert dish consisting of a coconut custard steam-baked in a pumpkin or kabocha. Steamed pumpkin with an egg-and-coconut custard filling, similar to the coconut jam from Malaysia, Indonesia and the Philippines.",
+					"ingredients":[
+						"coconut",
+						"pumpkin",
+						"egg",
+						"sugar"
+					],
+					"contains":[
+						"egg"
+					]
+				},{
+					"id": "th18",
+					"name": "Som tam",
+					"picture": "som-tam.jpg",
+					"description": "ส้มตำ. A spicy salad made from shredded unripe papaya. It is of Lao origin but it is also eaten throughout Southeast Asia. The dish combines the five main tastes of the local cuisine: sour lime, hot chili, salty, savory fish sauce, and sweetness added by palm sugar.",
+					"ingredients":[
+						"papaya",
+						"bean",
+						"spicy",
+						"crab",
+						"plum",
+						"lime"
+					],
+					"contains":[
+						"spicy",
+						"seafood"
+					]
+				},{
+					"id": "th19",
+					"name": "Tom kha kai",
+					"picture": "tom-kha-kai.jpg",
+					"description": "ต้มข่าไก่. A spicy and sour hot soup with coconut milk in Lao cuisine and Thai cuisine. In Thailand, most tom kha kai recipes typically include coconut milk, galangal, kaffir lime leaves, lemongrass, Thai chili peppers, coriander (or dill weed), straw mushrooms (or shiitake or other mushrooms), chicken, fish sauce, and lime juice.",
+					"ingredients":[
+						"coconut",
+						"herbs",
+						"spicy",
+						"mushroom",
+						"chicken",
+						"lime"
+					],
+					"contains":[
+						"meat",
+						"spicy",
+						"seafood"
+					]
+				},{
+					"id": "th20",
+					"name": "Tom yum",
+					"picture": "tom-yum.jpg",
+					"description": "ต้มยำ. A Lao and Thai clear, spicy and sour soup. Tom yum is widely served in neighbouring countries such as Cambodia, Malaysia and Singapore, and has been popularised around the world. Literally, the words 'tom yum' are derived from two Tai words: 'tom' and 'yam'. 'Tom' refers to boiling process, while 'yam' refers to a kind of Lao and Thai spicy and sour salad.",
+					"ingredients":[
+						"fish",
+						"spicy",
+						"herbs"
+					],
+					"contains":[
+						"seafood"
+					]
+				}
+			]
+		},{
+			"country": "United States",
+			"flag": "usa.svg",
+			"dishes":[
+				{
+					"id": "us01",
+					"name": "Apple pie",
+					"picture": "apple-pie.jpg",
+					"description": "A fruit pie (or tart) in which the principal filling ingredient is apple. It is sometimes served with whipped cream or ice cream on top, or alongside cheddar cheese.",
+					"ingredients":[
+						"puff-pastry",
+						"apple",
+						"sugar"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "us02",
+					"name": "Brunswick stew",
+					"picture": "brunswick-stew.jpg",
+					"description": "A traditional dish, popular in the American South. The origin of the dish is uncertain. Two places compete for originating it, in addition to claims to a German origin.",
+					"ingredients":[
+						"meat",
+						"tomato",
+						"white-bean",
+						"vegetables",
+						"corn",
+						"okra"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "us03",
+					"name": "Chicken nugget",
+					"picture": "chicken-nugget.jpg",
+					"description": "A chicken product made from either meat slurry or chicken breasts cut to shape, breaded or battered, then deep-fried or baked. Fast food restaurants typically fry their nuggets in vegetable oil, such as coconut oil. The chicken nugget was invented in the 1950s by Robert C. Baker, a food science professor at Cornell University, and published as unpatented academic work.",
+					"ingredients":[
+						"chicken",
+						"flour",
+						"olive-oil"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "us04",
+					"name": "Chili con carne",
+					"picture": "chili-carne.jpg",
+					"description": "A spicy stew containing chili peppers, meat (usually beef), and often tomatoes and beans. Other seasonings may include garlic, onions, and cumin.",
+					"ingredients":[
+						"meat",
+						"bean",
+						"spicy"
+					],
+					"contains":[
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "us05",
+					"name": "Clam chowder",
+					"picture": "clam-chowder.jpg",
+					"description": "Clam chowder is any of several chowders containing clams and broth. Along with the clams, diced potato is common, as are onions, which are occasionally sautéed in the drippings from salt pork or bacon. Celery is frequently used.",
+					"ingredients":[
+						"clam",
+						"potato",
+						"onion"
+					],
+					"contains":[
+						"seafood"
+					]
+				},{
+					"id": "us06",
+					"name": "Cowboy beans",
+					"picture": "cowboy-beans.jpg",
+					"description": "A bean dish popular in the United States. The dish consists of beans and ground beef in a sweet and tangy sauce. The flavor is similar to baked beans but with a southwestern twist.",
+					"ingredients":[
+						"bean",
+						"meat"
+					],
+					"contains":[
+						"meat"
+					]
+				},{
+					"id": "us07",
+					"name": "Doughnut",
+					"picture": "doughnut.jpg",
+					"description": "A type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty outlets. They are usually deep-fried from a flour dough, and typically either ring-shaped or without a hole and often filled.",
+					"ingredients":[
+						"dough",
+						"sugar"
+					],
+					"contains":[
+						"gluten"
+					]
+				},{
+					"id": "us08",
+					"name": "Fried chicken",
+					"picture": "fried-chicken.jpg",
+					"description": "A dish consisting of chicken pieces usually from broiler chickens which have been floured or battered and then pan-fried, deep fried, or pressure fried. The breading adds a crisp coating or crust to the exterior.",
+					"ingredients":[
+						"chicken",
+						"flour"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "us09",
+					"name": "Gumbo",
+					"picture": "gumbo.jpg",
+					"description": "A dish that originated in southern Louisiana from the Louisiana Creole people during the 18th century. It typically consists primarily of a strongly flavored stock, okra, meat or shellfish, a thickener, and seasoning vegetables, which can include celery, bell peppers and onions.",
+					"ingredients":[
+						"meat",
+						"mussel",
+						"shrimp",
+						"spicy",
+						"okra",
+						"herbs"
+					],
+					"contains":[
+						"meat",
+						"seafood",
+						"spicy"
+					]
+				},{
+					"id": "us10",
+					"name": "Hamburger",
+					"picture": "hamburger.jpg",
+					"description": "A sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bun. Hamburgers are often served with lettuce, bacon, tomato, onion, pickles, cheese and condiments such as mustard, mayonnaise, ketchup, relish, and green chile.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"cheese",
+						"tomato",
+						"cabbage"
+					],
+					"contains":[
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "us11",
+					"name": "Hot dog",
+					"picture": "hotdog.jpg",
+					"description": "A cooked sausage, traditionally grilled or steamed and served in a sliced bun as a sandwich. Typical hot dog garnishes include mustard, ketchup, onions, mayonnaise, relish, cheese, chili, and sauerkraut.",
+					"ingredients":[
+						"bread",
+						"pork"
+					],
+					"contains":[
+						"pork",
+						"meat",
+						"gluten"
+					]
+				},{
+					"id": "us12",
+					"name": "Macaroni and cheese",
+					"picture": "mac-cheese.jpg",
+					"description": "A dish consisting of cooked macaroni pasta and cheese, most commonly Cheddar cheese, though it can also incorporate other ingredients, such as bread crumbs and flavorful enhancements.",
+					"ingredients":[
+						"pasta",
+						"cheese",
+						"milk",
+						"flour"
+					],
+					"contains":[
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "us13",
+					"name": "Mashed potato",
+					"picture": "mashed-potato.jpg",
+					"description": "A dish prepared by mashing boiled potatoes. Recipes started appearing no later than 1747 with an entry in The Art of Cookery by Hannah Glasse. Dehydrated and frozen mashed potatoes are available in many places.",
+					"ingredients":[
+						"potato",
+						"milk",
+						"cream"
+					],
+					"contains":[
+						"dairy"
+					]
+				},{
+					"id": "us14",
+					"name": "Mission burrito",
+					"picture": "mission-burrito.jpg",
+					"description": "A type of burrito that first became popular during the 1960s in the Mission District of San Francisco, California. It is distinguished from other burritos by its large size and inclusion of extra rice and other ingredients.",
+					"ingredients":[
+						"tortilla",
+						"rice",
+						"meat",
+						"bean",
+						"cheese",
+						"avocado"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"dairy"
+					]
+				},{
+					"id": "us15",
+					"name": "New York pizza",
+					"picture": "ny-pizza.jpg",
+					"description": "New York-style pizza originated in New York City in the early 1900s, and in 1905, the first pizza establishment in the United States was opened in New York's Little Italy. It is known for its large, wide, thin, and floppy yet tough shape.",
+					"ingredients":[
+						"dough",
+						"tomato",
+						"cheese"
+					],
+					"contains":[
+						"gluten",
+						"dairy"
+					]
+				},{
+					"id": "us16",
+					"name": "Pasta salad",
+					"picture": "pasta-salad.jpg",
+					"description": "A dish prepared with one or more types of pasta, usually chilled, and most often tossed in a vinegar, oil or mayonnaise-based dressing. It is typically served as an appetizer or a main course.",
+					"ingredients":[
+						"pasta",
+						"vegetables",
+						"mayonnaise"
+					],
+					"contains":[
+						"gluten",
+						"dairy",
+						"egg"
+					]
+				},{
+					"id": "us17",
+					"name": "Peanut butter",
+					"picture": "peanut-butter.jpg",
+					"description": "A food paste made primarily from ground dry roasted peanut (actually a legume and not a nut). It is mainly used as a sandwich spread, sometimes in combination with other spreads such as jam, chocolate (in various forms), vegetables or cheese.",
+					"ingredients":[
+						"peanut"
+					],
+					"contains":[
+						"nuts"
+					]
+				},{
+					"id": "us18",
+					"name": "Potato salad",
+					"picture": "potato-salad.jpg",
+					"description": "A dish made from boiled potatoes that comes in many versions in different regions of the world. Though called a salad, it is generally a side dish, as it usually accompanies the main course.",
+					"ingredients":[
+						"potato",
+						"egg",
+						"vegetables",
+						"mayonnaise"
+					],
+					"contains":[
+						"egg",
+						"dairy"
+					]
+				},{
+					"id": "us19",
+					"name": "Sloppy joe",
+					"picture": "sloppy-joe.jpg",
+					"description": "A sandwich, originating in the United States, consisting of ground beef, onions, tomato sauce or ketchup, Worcestershire sauce, and other seasonings, served on a hamburger bun.",
+					"ingredients":[
+						"bread",
+						"meat",
+						"onion"
+					],
+					"contains":[
+						"gluten",
+						"meat",
+						"spicy"
+					]
+				},{
+					"id": "us20",
+					"name": "Surf and turf",
+					"picture": "surf-turf.jpg",
+					"description": "A main course in American cuisine which combines seafood and meat. It is particularly common in British/Irish-style pubs in North America and North American steakhouses. The 'surf' part refers to lobster, prawns, or shrimp, which may be grilled or breaded and fried. The 'turf' part refers to a steak.",
+					"ingredients":[
+						"shrimp",
+						"meat"
+					],
+					"contains":[
+						"seafood",
+						"meat"
+					]
+				}
+			]
+		},{
+			"country": "",
+			"flag": ".svg",
+			"dishes":[
+				{
+					"id": "",
+					"name": "",
+					"picture": ".jpg",
+					"description": "",
+					"ingredients":[
+						""
+					],
+					"contains":[
+						""
+					]
+				}
+			]
+		}	
+	],
+	"badges":[
+		{
+			"id": "1",
+			"name": "Newbie",
+			"picture": "newbie.png",
+			"description": "New around here? Congrats on your first tasted dish! Go for more local delicacies!",
+			"conditions": [
+				{
+					"type": "total",
+					"count": "1"
+				}
+			]
+		},{
+			"id": "2",
+			"name": "Foodie",
+			"picture": "foodie.png",
+			"description": "Hey! That was your 25th food! Good job discovering local delicaces!",
+			"conditions": [
+				{
+					"type": "total",
+					"count": "25"
+				}
+			]
+		},{
+			"id": "3",
+			"name": "Gluton",
+			"picture": "gluton.png",
+			"description": "People say traveling is the best diet! Keep going!",
+			"conditions": [
+				{
+					"type": "total",
+					"count": "100"
+				}
+			]
+		},{
+			"id": "4",
+			"name": "Food Adept",
+			"picture": "food-adpet.png",
+			"description": "You are not only collecting places and friends ... but foods as well!",
+			"conditions": [
+				{
+					"type": "total",
+					"count": "200"
+				}
+			]
+		},{
+			"id": "5",
+			"name": "Food Master",
+			"picture": "food-master.png",
+			"description": "That's it! You are a truly food master! 301 international dishes now lay in your stomach!",
+			"conditions": [
+				{
+					"type": "total",
+					"count": "301"
+				}
+			]
+		},{
+			"id": "6",
+			"name": "Vive la France !",
+			"picture": "france1.png",
+			"description": "You seem to enjoy french cuisine! This is your 10th french dish tasted!",
+			"conditions": [
+				{
+					"type": "fr",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "7",
+			"name": "French Expert",
+			"picture": "france2.png",
+			"description": "You can call yourself a true french expert! Congratulations in tasting all the french dishes!",
+			"conditions": [
+				{
+					"type": "fr",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "8",
+			"name": "Beer, fries and waffles!",
+			"picture": "belgium1.png",
+			"description": "Because now you know that there is more than beer, fries and waffles in Belgian cuisine!",
+			"conditions": [
+				{
+					"type": "be",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "9",
+			"name": "Belgian Expert",
+			"picture": "belgium2.png",
+			"description": "Good you didn't die from chocolate overdose! You went through the most iconic Belgian dishes!",
+			"conditions": [
+				{
+					"type": "be",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "10",
+			"name": "Italy Connoisseur",
+			"picture": "italy1.png",
+			"description": "Pizza and pasta have no more secrets to you!",
+			"conditions": [
+				{
+					"type": "it",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "11",
+			"name": "Italian Expert",
+			"picture": "italy2.png",
+			"description": "People say Italians only eat pasta and pizza. Now you know better!",
+			"conditions": [
+				{
+					"type": "it",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "12",
+			"name": "¡Olé!",
+			"picture": "spain1.png",
+			"description": "Chorizo and Jamón are not the only things Spain has to offer to the world!",
+			"conditions": [
+				{
+					"type": "es",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "13",
+			"name": "Spanish Expert",
+			"picture": "spain2.png",
+			"description": "You are now a true spaniard gastronomy connoisseur!",
+			"conditions": [
+				{
+					"type": "es",
+					"count": "21"
+				}
+			]
+		},{
+			"id": "14",
+			"name": "Born in the USA!",
+			"picture": "usa1.png",
+			"description": "Congratulations on exploring further than the typical hamburger and hotdog!",
+			"conditions": [
+				{
+					"type": "us",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "15",
+			"name": "American Expert",
+			"picture": "usa2.png",
+			"description": "Because American food is not just fast food, and it's actually pretty good!",
+			"conditions": [
+				{
+					"type": "us",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "16",
+			"name": "Tacos & Tequila",
+			"picture": "mexico1.png",
+			"description": "Also, never ever mix mezcal with beer ...",
+			"conditions": [
+				{
+					"type": "mx",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "17",
+			"name": "Mexican Expert",
+			"picture": "mexico2.png",
+			"description": "¡Andalé hermanito! Congrats on diving in one of the most unique cuisine and surviving!",
+			"conditions": [
+				{
+					"type": "mx",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "18",
+			"name": "¿Cachai?",
+			"picture": "chile1.png",
+			"description": "Porotos, palta, durazno, maní and ají are now part of your vocabulary!",
+			"conditions": [
+				{
+					"type": "cl",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "19",
+			"name": "Chilean Expert",
+			"picture": "chile2.png",
+			"description": "If you have been this far, you have probably survived to a terremoto!",
+			"conditions": [
+				{
+					"type": "cl",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "20",
+			"name": "Dominicano Soy",
+			"picture": "rep-dom1.png",
+			"description": "De mis raices, yo no voy a olvidarme. Soy de una raza tan humilde y tan grande.",
+			"conditions": [
+				{
+					"type": "do",
+					"count": "10"
+
+				}
+			]
+		},{
+			"id": "21",
+			"name": "Dominican Expert",
+			"picture": "rep-dom2.png",
+			"description": "Arroz, habichuela y carne. Y sino espaghetti concon.",
+			"conditions": [
+				{
+					"type": "do",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "22",
+			"name": "我爱中国菜",
+			"picture": "china1.png",
+			"description": "Your stomach may have had a hard time, but it was totally worth it!",
+			"conditions": [
+				{
+					"type": "cn",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "23",
+			"name": "Chinese Expert",
+			"picture": "china2.png",
+			"description": "Now that you have the knowledge, help the newbies discover how much China has to offer!",
+			"conditions": [
+				{
+					"type": "cn",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "24",
+			"name": "Singapore Lah!",
+			"picture": "singapore1.png",
+			"description": "Chicken rice ah? Ok can can lah!",
+			"conditions": [
+				{
+					"type": "sg",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "25",
+			"name": "Singaporean Expert",
+			"picture": "singapore2.png",
+			"description": "This extraodinary cuisine has no more secrets to your taste buds!",
+			"conditions": [
+				{
+					"type": "sg",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "26",
+			"name": "私は日本食が大好き",
+			"picture": "japan1.png",
+			"description": "You are now fluent in sushi, sashimi and karate!",
+			"conditions": [
+				{
+					"type": "jp",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "27",
+			"name": "Japanese Expert",
+			"picture": "japan2.png",
+			"description": "Because Japan has so much more to offer than just sushi!",
+			"conditions": [
+				{
+					"type": "jp",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "28",
+			"name": "나는 한국 음식을 사랑",
+			"picture": "korea1.png",
+			"description": "You may just have discovered unbelievable new tastes, and that's great!",
+			"conditions": [
+				{
+					"type": "kr",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "29",
+			"name": "Korean Expert",
+			"picture": "korea2.png",
+			"description": "You lost the count of the patbingsu you have been eating!",
+			"conditions": [
+				{
+					"type": "kr",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "30",
+			"name": "我愛台灣美食",
+			"picture": "taiwan1.png",
+			"description": "Because Taiwan is a bit different from mainland China!",
+			"conditions": [
+				{
+					"type": "tw",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "31",
+			"name": "Taiwanese Expert",
+			"picture": "taiwan2.png",
+			"description": "Good job on tasting 20 taiwanese dishes! Now go for the hundreds left!",
+			"conditions": [
+				{
+					"type": "tw",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "32",
+			"name": "I <3 Goulash",
+			"picture": "hungary1.png",
+			"description": "You may have been surviving on goulash and palinka for the moment, but don't hesitate to explore more!",
+			"conditions": [
+				{
+					"type": "hu",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "33",
+			"name": "Hungarian Expert",
+			"picture": "hungary2.png",
+			"description": "Dude, I don't even know what to say!",
+			"conditions": [
+				{
+					"type": "hu",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "34",
+			"name": "ฉันรักอาหารไทย",
+			"picture": "thailand1.png",
+			"description": "Rainbow curries have no secrets for you anymore!",
+			"conditions": [
+				{
+					"type": "th",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "35",
+			"name": "Thai Expert",
+			"picture": "thailand2.png",
+			"description": "You know a lot of Thai cuisine! What about exploring neighbouring countries?",
+			"conditions": [
+				{
+					"type": "th",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "36",
+			"name": "Food Explorer!",
+			"picture": "food-explorer.png",
+			"description": "Like travelling and discovering new local delicacies? Well you seem to be on the good path to master it all!",
+			"conditions": [
+				{
+					"type": "countries",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "37",
+			"name": "Meat Lover",
+			"picture": "meat-lover.png",
+			"description": "I guess you don't like to eat the food your food eats, right?",
+			"conditions": [
+				{
+					"type": "meat",
+					"count": "80"
+				}
+			]
+		},{
+			"id": "38",
+			"name": "Fish Lover",
+			"picture": "fish-lover.png",
+			"description": "So much Omega-3 your brain is going to explode!",
+			"conditions": [
+				{
+					"type": "fish",
+					"count": "40"
+				}
+			]
+		},{
+			"id": "39",
+			"name": "Veggie",
+			"picture": "veggie.png",
+			"description": "Veggie can be tasty!",
+			"conditions": [
+				{
+					"type": "veggie",
+					"count": "40"
+				}
+			]
+		},{
+			"id": "40",
+			"name": "Vegan",
+			"picture": "vegan.png",
+			"description": "All the animals (and probably your body) thank you!",
+			"conditions": [
+				{
+					"type": "vegan",
+					"count": "40"
+				}
+			]
+		},{
+			"id": "41",
+			"name": "Cheers!",
+			"picture": "cheers.png",
+			"description": "It's good to drink, but always with moderation! Cheers!",
+			"conditions": [
+				{
+					"type": "alcohol",
+					"count": "10"
+				}
+			]
+		},{
+			"id": "42",
+			"name": "Sweet Teeth",
+			"picture": "sweet.png",
+			"description": "You like sweets! That's sweet!",
+			"conditions": [
+				{
+					"type": "sugar",
+					"count": "20"
+				}
+			]
+		},{
+			"id": "43",
+			"name": "Hot'n'Spicy",
+			"picture": "hot-spicy.png",
+			"description": "Do you even feel your tongue anyway?",
+			"conditions": [
+				{
+					"type": "spicy",
+					"count": "25"
+				}
+			]
+		},{
+			"id": "44",
+			"name": "Egg Power",
+			"picture": "egg-power.png",
+			"description": "Full of protein, full of energy (at least enough to engender a chicken)!",
+			"conditions": [
+				{
+					"type": "egg",
+					"count": "50"
+				}
+			]
+		},{
+			"id": "45",
+			"name": "Snails?",
+			"picture": "snails.png",
+			"description": "Did you just eat snails? Dude, that's brave!",
+			"conditions": [
+				{
+					"type": "snail",
+					"count": "1"
+				}
+			]
+		},{
+			"id": "46",
+			"name": "Bzzzzz...",
+			"picture": "insects.png",
+			"description": "Did you just eat insects? Seriously? Dude, that's brave!",
+			"conditions": [
+				{
+					"type": "insect",
+					"count": "1"
+				}
+			]
+		},{
+			"id": "",
+			"name": "",
+			"picture": ".png",
+			"description": "",
+			"conditions": [
+				{
+
+				}
+			]
+		}
+	],
+	"names":{
+		"countries":[
+			"Belgium",
+			"Chile",
+			"China",
+			"Dominican Republic",
+			"France",
+			"Hungary",
+			"Italy",
+			"Japan",
+			"Mexico",
+			"Singapore",
+			"South Korea",
+			"Spain",
+			"Taiwan",
+			"Thailand",
+			"United States"
+		],
+		"dishes": [
+			"Boudin blanc",
+			"Carbonnade",
+			"Chicons au gratin",
+			"Chocolat",
+			"Filet américain",
+			"Frites",
+			"Jambon d'Ardenne",
+			"Lapin à la gueuze",
+			"Mitraillette",
+			"Moules-frites",
+			"Paling in 't groen",
+			"Pêches au thon",
+			"Salade liégoise",
+			"Speculoos",
+			"Stoemp",
+			"Tarte au riz",
+			"Tomate-crevette",
+			"Trappist Beer",
+			"Waffle",
+			"Waterzooi",
+			"Barros Luco",
+			"Caldillo de congrio",
+			"Charquicán",
+			"Choripán",
+			"Chorrillana",
+			"Churrasco Italiano",
+			"Completo",
+			"Cordero al palo",
+			"Ensalada de quinoa",
+			"Humita",
+			"Lomo a lo pobre",
+			"Machas parmesana",
+			"Mote con huesillo",
+			"Paila marina",
+			"Pan de Pascua",
+			"Pantruca",
+			"Pastel de choclo",
+			"Pisco",
+			"Porotos con rienda",
+			"Pulmay",
+			"Beef chow fun",
+			"Beggar's Chicken",
+			"Buddha's delight",
+			"Century egg",
+			"Char siu",
+			"Dandan noodles",
+			"Dim sum",
+			"Dongpo pork",
+			"Duck's head",
+			"Fried rice",
+			"Ha gow",
+			"Kung Pao chicken",
+			"Mantou",
+			"Mapo doufu",
+			"Mooncake",
+			"Peking duck",
+			"Sweet and sour pork",
+			"Xiaolongbao",
+			"Yeung Chow fried rice",
+			"Zhajiangmian",
+			"Arepa",
+			"Arroz con maiz",
+			"Casabe",
+			"Chapea",
+			"Chimichurri",
+			"Fritos verdes",
+			"Kipe",
+			"La Bandera",
+			"Locrio de pollo",
+			"Majarete",
+			"Mangú",
+			"Mofongo",
+			"Morir soñando",
+			"Moro de guandules",
+			"Pasteles en hoja",
+			"Queso Frito",
+			"Sancocho",
+			"Sopa de mondongo",
+			"Wasakaka",
+			"Yanikeke",
+			"Andouillette",
+			"Boeuf bourguignon",
+			"Camembert",
+			"Cassoulet",
+			"Confit de canard",
+			"Crêpe",
+			"Croque-monsieur",
+			"Escargot",
+			"Flammekueche",
+			"Foie gras",
+			"Fondue savoyarde",
+			"Macaron",
+			"Mille-feuille",
+			"Pain au chocolat",
+			"Quiche",
+			"Ratatouille",
+			"Salade niçoise",
+			"Soupe à l'oignon",
+			"Tartiflette",
+			"Tapenade",
+			"Dobos torta",
+			"Fatányéros",
+			"Főzelék",
+			"Gulyás",
+			"Gulyásleves",
+			"Halászlé",
+			"Hortobágyi palacsinta",
+			"Húsleves",
+			"Kolbász",
+			"Lecsó",
+			"Meggyleves",
+			"Pálinka",
+			"Paprikás csirke",
+			"Pörkölt",
+			"Sólet",
+			"Stefánia szelet",
+			"Szilvásgombóc",
+			"Téliszalámi",
+			"Töltött káposzta",
+			"Túrós csusza",
+			"Agnolotti",
+			"Bruschetta",
+			"Cacciucco",
+			"Cannoli",
+			"Cappon magro",
+			"Carbonara",
+			"Cotoletta",
+			"Insalata Caprese",
+			"Lasagne",
+			"Minestrone",
+			"Panzanella",
+			"Pasta e fagioli",
+			"Penne all'arrabbiata",
+			"Pesto",
+			"Pizza",
+			"Polenta",
+			"Ragù alla bolognese",
+			"Risotto",
+			"Saltimbocca",
+			"Tiramisu",
+			"Bento",
+			"Gyōza",
+			"Gyūdon",
+			"Japanese curry",
+			"Katsudon",
+			"Matcha ice cream",
+			"Miso soup",
+			"Nattō",
+			"Okonomiyaki",
+			"Onigiri",
+			"Sake",
+			"Soba",
+			"Sukiyaki",
+			"Sushi",
+			"Takoyaki",
+			"Tempura",
+			"Tonkatsu",
+			"Udon",
+			"Yakiniku",
+			"Yakitori",
+			"Birria",
+			"Chapulines",
+			"Chilaquiles",
+			"Cochinita pibil",
+			"Enchilada",
+			"Esquite",
+			"Guacamole",
+			"Huachinango",
+			"Mezcal",
+			"Michelada",
+			"Mole",
+			"Pozole",
+			"Pulque",
+			"Quesadilla",
+			"Sope",
+			"Taco",
+			"Tamal",
+			"Tequila",
+			"Tlayuda",
+			"Torta",
+			"Bak kut teh",
+			"Black pepper crab",
+			"Chai tow kway",
+			"Char kway teow",
+			"Chicken rice",
+			"Chilli crab",
+			"Duck rice",
+			"Fish head curry",
+			"Fish soup bee hoon",
+			"Hokkien mee",
+			"Ice kacang",
+			"Kaya toast",
+			"Laksa",
+			"Murtabak",
+			"Nasi goreng",
+			"Nasi lemak",
+			"Roti prata",
+			"Satay",
+			"Singapore Sling",
+			"Wonton noodles",
+			"Bibimbap",
+			"Bulgogi",
+			"Galbi",
+			"Hoe",
+			"Hoppang",
+			"Jajangmyeon",
+			"Japchae",
+			"Kalguksu",
+			"Kimchi",
+			"Kimchi jjigae",
+			"Makgeolli",
+			"Miyeok guk",
+			"Naengmyeon",
+			"Pajeon",
+			"Patbingsu",
+			"Samgyeopsal",
+			"Samgyetang",
+			"Tteokbokki",
+			"Soju",
+			"Sundubu jjigae",
+			"Arroz a la cubana",
+			"Chorizo",
+			"Churro",
+			"Cocido Montañés",
+			"Escalivada",
+			"Escudella",
+			"Fabada",
+			"Gazpacho",
+			"Hornazo",
+			"Jamón",
+			"Lechazo",
+			"Leche frita",
+			"Morcilla",
+			"Paella",
+			"Patatas bravas",
+			"Polbo á feira",
+			"Sopa de ajo",
+			"Tapas",
+			"Tombet",
+			"Tortilla",
+			"Turrón",
+			"A-gei",
+			"Baobing",
+			"Ba-wan",
+			"Beef noodle",
+			"Bubble tea",
+			"Dan zai noodles",
+			"Gua bao",
+			"Iron egg",
+			"Minced pork rice",
+			"Oyster omelette",
+			"Oyster vermicelli",
+			"Pig's blood cake",
+			"Popcorn chicken",
+			"Popiah",
+			"Pork ball",
+			"Scallion pancake",
+			"Spicy hot pot",
+			"Stinky tofu",
+			"Suncake",
+			"Taiwanese hot dog",
+			"Cha yen",
+			"Khao phat",
+			"Kaeng kari",
+			"Kaeng khiao wan",
+			"Kaeng phet",
+			"Kai yang",
+			"Khanom chan",
+			"Khao soi",
+			"Krating Daeng",
+			"Mi krop",
+			"Nam ngiao",
+			"Nam tok",
+			"Phat si io",
+			"Phat Thai",
+			"Rat na",
+			"Sai ua",
+			"Sangkhaya fak thong",
+			"Som tam",
+			"Tom kha kai",
+			"Tom yum",
+			"Apple pie",
+			"Brunswick stew",
+			"Chicken nugget",
+			"Chili con carne",
+			"Clam chowder",
+			"Cowboy beans",
+			"Doughnut",
+			"Fried chicken",
+			"Gumbo",
+			"Hamburger",
+			"Hot dog",
+			"Macaroni and cheese",
+			"Mashed potato",
+			"Mission burrito",
+			"New York pizza",
+			"Pasta salad",
+			"Peanut butter",
+			"Potato salad",
+			"Sloppy joe",
+			"Surf and turf"
+		]
+	}
+}

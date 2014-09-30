@@ -1,0 +1,14 @@
+<!-- Header -->
+<div id="my-badges-header">
+	<p id="my-badges-header-title">My Badges</p>
+</div>
+
+<!-- Content -->
+<div id="my-badges-list">
+	<%_.each(data, function(badge){%>
+		<div class="badge-el" id="<%=badge.id%>">
+			<img class="badge-picture" src="img/badge/<%=badge.picture%>" alt="<%=badge.name%>" />
+			<p class="badge-name"><%=badge.name%></p>
+		</div>
+	<%});%>
+</div>
