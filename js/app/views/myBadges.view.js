@@ -25,12 +25,15 @@ var MyBadgesView = Backbone.View.extend({
 		//Retrieve data
 		if(window.localStorage.getItem('earned-badges')){
 			var myBadges = JSON.parse(window.localStorage.getItem('earned-badges'));
+		}
 
-			for (var i = 0; i < _badges.length; i++) {
-				if(_.contains(myBadges, _badges[i].id)){
-					data.push(_badges[i]);
-				}
+		for (var i = 0; i < _badges.length; i++) {
+			data.push(_badges[i]);
+			if(_.contains(myBadges, _badges[i].id)){
+				data[i].earned = true;
 			}
+			else
+				data[i].earned = false;
 		}
 
 		console.log(data);

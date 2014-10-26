@@ -6,9 +6,16 @@
 <!-- Content -->
 <div id="my-badges-list">
 	<%_.each(data, function(badge){%>
-		<div class="badge-el" id="<%=badge.id%>">
-			<img class="badge-picture" src="img/badge/<%=badge.picture%>" alt="<%=badge.name%>" />
-			<p class="badge-name"><%=badge.name%></p>
-		</div>
+		<%if(badge.earned === true){%>
+			<div class="badge-el" id="<%=badge.id%>">
+				<img class="badge-picture" src="img/badge/<%=badge.picture%>" alt="<%=badge.name%>" />
+				<p class="badge-name"><%=badge.name%></p>
+			</div>
+		<%}else{%>
+			<div class="not-badge-el">
+				<img class="empty-badge" src="img/badge/empty.png" alt="Empty Badge" />
+				<p class="badge-name"><%=badge.name%></p>
+			</div>
+		<%}%>
 	<%});%>
 </div>
