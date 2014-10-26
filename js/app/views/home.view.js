@@ -20,7 +20,7 @@ var HomeView = Backbone.View.extend({
 	},
 
 	render: function () {
-		this.$el.html(this.template());
+		this.$el.html(this.template({countries:_names.countries}));
 
 		this.initFilters();
 	},
@@ -45,6 +45,9 @@ var HomeView = Backbone.View.extend({
 
 	events: {
 		'click #filter-box .filter-img': 'toggleFilter',
+		'click #country-tab': 'showCountrySelect',
+		'click #dish-tab': 'showDishSearch',
+		'change #select-country': 'onSelectCountry',
 		'keydown #search-field input': 'onKeydown',
 		'blur #search-field input': 'onBlur',
 		'focus #search-field input': 'onFocus',
@@ -73,6 +76,48 @@ var HomeView = Backbone.View.extend({
 		}
 	},
 
+	//showCountrySelect
+	/*
+		@desc		Show the country selector and adds an "active" class to the country-tab.
+		@params		e
+						@desc	Click event Object
+						@type	<Object>
+						@vals 	/
+		@return		/
+	*/
+	showCountrySelect: function (e) {
+		$("#search-country").show();
+		$("#search-dish").hide();
+
+		$("#country-tab").addClass("active");
+		$("#dish-tab").removeClass("active");
+	},
+
+	onSelectCountry: function (e) {
+		var country = e.currentTarget.value;
+
+		//Route to selected country
+		if(country !== "none")
+			Backbone.history.navigate('country/' + country, {trigger: true});
+	},
+
+	//showDishSearch
+	/*
+		@desc		Show the dish search field and adds an "active" class to the dish-tab.
+		@params		e
+						@desc	Click event Object
+						@type	<Object>
+						@vals 	/
+		@return		/
+	*/
+	showDishSearch: function (e) {
+		$("#search-dish").show();
+		$("#search-country").hide();
+
+		$("#dish-tab").addClass("active");
+		$("#country-tab").removeClass("active");
+	},
+
 	onKeydown: function (e) {
 		if(e.keyCode === 13)
 			this.search(e.currentTarget.value);
@@ -80,17 +125,17 @@ var HomeView = Backbone.View.extend({
 
 	onBlur: function (e) {
 		if(e.currentTarget.value === "")
-			$("#search-field input").val("Enter a country or dish name ...");
+			$("#search-field input").val("Please enter a dish name ...");
 	},
 
 	onFocus: function (e) {
-		if(e.currentTarget.value === "Enter a country or dish name ...")
+		if(e.currentTarget.value === "Please enter a dish name ...")
 			$("#search-field input").val("");
 	},
 
 	//Search
 	/*
-		@desc		Retrieves the search text and routes to the dishes list or dish details result page.
+		@desc		Retrieves the search text and routes to the dish list or the dish details result page.
 		@params		e
 						@desc	Click event Object
 						@type	<Object>
@@ -107,7 +152,7 @@ var HomeView = Backbone.View.extend({
 		var text = val.charAt(0).toUpperCase() + val.substr(1).toLowerCase();
 
 		//Validate searchText
-		if(text !== "" && text !== "Enter a country or dish name ..."){
+		if(text !== "" && text !== "Please enter a dish name ..."){
 			//Look for a matching text in countries or dishes
 			var match = this.matchText(text);
 			//var route = this.selectRoute(text);
@@ -154,14 +199,14 @@ var HomeView = Backbone.View.extend({
 						@vals 	"country", "dish" or null
 	*/
 	selectRoute: function (text) {
-		var countries = _names.countries;
+		//var countries = _names.countries;
 		var dishes = _names.dishes;
 
 		//If text value is a country
-		for (var i = 0; i < countries.length; i++) {
+		/*for (var i = 0; i < countries.length; i++) {
 			if (countries[i] == text)
 				return "country";
-		}
+		}*/
 		//Else if text value is a dish
 		for (var i = 0; i < dishes.length; i++) {
 			if (dishes[i] == text)
@@ -187,7 +232,7 @@ var HomeView = Backbone.View.extend({
 								}
 	*/
 	matchText: function (text) {
-		var countries = _names.countries;
+		//var countries = _names.countries;
 		var dishes = _names.dishes;
 
 		var route = this.selectRoute(text);
@@ -199,7 +244,7 @@ var HomeView = Backbone.View.extend({
 
 		//Calculate distances between the text and the names
 		var distance = [];
-		var names = _.union(countries, dishes);
+		var names = _names.dishes; //var names = _.union(countries, dishes);
 		for (var i = 0; i < names.length; i++) {
 			distance.push(this.fuzzyStringDistance(text, names[i]));
 		}
@@ -208,7 +253,7 @@ var HomeView = Backbone.View.extend({
 		var min = _.min(distance);
 
 		//If the min distance is too big (> 3) return null
-		if(min > 3)
+		if(min > 2)
 			return {'route': null, 'text': text};
 
 		//Retrieve all the indexes of min distance

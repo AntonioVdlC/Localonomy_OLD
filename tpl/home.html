@@ -5,8 +5,23 @@
 
 <!-- Search Field -->
 <div id="search-field">
-	<input type="text" name="search" value="Enter a country or dish name ...">
-	<img id="search-button" src="img/icon/search.png" alt="Search Button" />
+	<p id="tabs">
+		<span id="country-tab" class="active">By Country</span>
+		<span id="dish-tab">By Dish Name</span>
+	</p>
+	<div id="search-country">
+		<select name="country" id="select-country">
+			<option value="none">Please select a country ...</option>
+			<%_.each(countries, function(country){%>
+				<option value="<%=country%>"><%=country%></option>
+			<%});%>
+		</select>
+		<img id="drop-down-arrow" src="img/icon/drop-down-arrow.png" alt="Drop Down Arrow" />
+	</div>
+	<div id="search-dish">
+		<input type="text" name="search" value="Please enter a dish name ...">
+		<img id="search-button" src="img/icon/search.png" alt="Search Button" />
+	</div>
 	<p id="error-text"></p>
 </div>
 
