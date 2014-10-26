@@ -114,30 +114,65 @@ button{
 	#slogan{
 		text-align: center;
 		font-size: 25px;
-		margin-top: 50px;
+		margin-top: 45px;//50px;
 	}
 
 	/* Search Bar */
 	#search-field{
 		width: 100%;
-		margin-top: 35px;
+		margin-top: 30px;//35px;
 
-		input{
-			line-height: 25px;
-			font-size: 15px;
-			padding-left: 5px;
-			width: 100%;//calc(100% - 5px);
-			border-radius: 50px;
+		#tabs{
+			text-align: center;
+			margin-bottom: 5px;
+
+			span{
+				background-color: peachpuff;
+				height: 25px;
+				width: 45%;
+				vertical-align: middle;
+				display: inline-block;
+				border-radius: 5px 5px 0px 0px;
+				padding: 5px;
+				font-size: 20px;
+			}
+			.active{
+				background-color: chocolate;
+			}
+		}
+
+		#search-country{
+			select{
+				-webkit-appearance: none;
+				height: 35px;
+				width: 100%;
+				font-size: 18px;
+				padding-left: 7px;
+				//border-radius: 50px;
+			}
+		}
+
+		#search-dish{
+			display: none;
+
+			input{
+				height: 35px;
+				font-size: 18px;
+				padding-left: 7px;
+				width: 100%;//calc(100% - 5px);
+				border-radius: 5px;
+				box-sizing: border-box;
+			}	
 		}
 
 		img{
 			height: 20px;
 			position: absolute;
-			top: 168px;//calc(#{$header-height} + 120px);
-			right: 5%;
+			top: 200px;//calc(#{$header-height} + 30px + 120px - 1px + 3px);
+			right: 7%;
 		}
 
-		p{
+		#error-text{
 			color:red;
 			margin: 0px;
 			font-size: 14px;
@@ -702,6 +737,32 @@ button{
 
 			.badge-picture{
 				width: 100%;
+			}
+			.badge-name{
+				text-align: center;
+				margin-top: 5px;
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+		}
+
+		.not-badge-el{
+			width: 40%;
+			float: left;
+
+			background-color: blanchedalmond;
+			padding: 2.5%;
+			border-radius: 15px;
+			margin-bottom: 15px;
+			opacity: 0.25;
+
+			&:nth-of-type(odd){
+				margin-right: 10%;
+			}
+
+			img{
+				width: 100%;
+				opacity: 0.5;
 			}
 			.badge-name{
 				text-align: center;
